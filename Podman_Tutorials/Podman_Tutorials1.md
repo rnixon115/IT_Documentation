@@ -1,5 +1,8 @@
 # Podman Tutorials
 
+Hi, Thank you for coming to my Podman documentation journey. 
+Recently, I've been exploring containerization technologies to self-host applications from different sources for my home lab.
+
 ## What is Podman?
 
 [Podman Website](https://podman.io/) 
