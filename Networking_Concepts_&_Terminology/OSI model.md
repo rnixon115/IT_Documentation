@@ -17,10 +17,10 @@
     6. Data Link
     7. Physical
 ##### An easy way to remember the OSI Model is by using it in a mnemonic. So,
-    1. Aldi's
-    2. Presents
-    3. Sourdough
-    4. To
-    5. Nile's
-    6. Dad's
-    7. Parents
+  1. Aldi's
+  2. Presents
+  3. Sourdough
+  4. To
+  5. Nile's
+  6. Dad's
+  7. Parents
