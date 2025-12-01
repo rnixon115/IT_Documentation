@@ -1,5 +1,5 @@
 # Physical Layer
-The physical layer consist of physical mediums to *connect* to other devices.
+The physical layer consists of physical media to *connect* to other devices.
 1. Ethernet Cables
 2. Fiber
 3. Wireless
@@ -7,10 +7,10 @@ The physical layer consist of physical mediums to *connect* to other devices.
 5. Cellular
    
 ### The phyiscal layer is about the *hardware instead of software*, so, problems can consist of:
-1. Fixing cables / replacing cable
+1. Fixing cables / replacing cables
 2. Crimping
 3. Punching down
-4. Running loop back test
-5. swaping Network Interface cards
+4. Running loopback test
+5. Swapping Network Interface cards
 6. etc
    
