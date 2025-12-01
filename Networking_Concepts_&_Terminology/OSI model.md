@@ -16,7 +16,7 @@
   5. Network
   6. Data Link
   7. Physical
-  An easy way to remember the OSI Model is by using it in a mnemonic. So,
+An easy way to remember the OSI Model is by using it in a mnemonic. So,
   1. Aldi's
   2. Presents
   3. Sourdough
