@@ -21,4 +21,4 @@ so that the receiver knows when the bit ends and begins.
 - Data rate is how much data can be sent at a time. ( 1 MB of data = 8 Mbps )
 ### Physical Topologies 
 - Physical Topologies are how to define networking devices in a structure. ( Star, Mesh, Bus, Ring )
-- [Physical Topologies](https://encrypted-tbn2.gstatic.com/licensed-image?q=tbn:ANd9GcSKow8-GZBrZSMX4Ii5yZP5FgnKKf1o-ejwgSRCsjNKfEL_rtyvHnkPpf4iN2Q8X6RxOYh5NOo8CG57ha3_1FzJ0KP6PSe8GOjZwrs5QW-IY297ppE)
+- ![Physical Topologies](https://encrypted-tbn2.gstatic.com/licensed-image?q=tbn:ANd9GcSKow8-GZBrZSMX4Ii5yZP5FgnKKf1o-ejwgSRCsjNKfEL_rtyvHnkPpf4iN2Q8X6RxOYh5NOo8CG57ha3_1FzJ0KP6PSe8GOjZwrs5QW-IY297ppE)
