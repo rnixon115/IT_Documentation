@@ -23,9 +23,5 @@
    - LAN Media
    - WAN Media
    - <img width="975" height="249" alt="image" src="https://github.com/user-attachments/assets/a27b2227-d4f6-4a4f-944f-75d47bd06e41" />
-
-### 2.2.3 End-Devices 
-
-   
    
 
