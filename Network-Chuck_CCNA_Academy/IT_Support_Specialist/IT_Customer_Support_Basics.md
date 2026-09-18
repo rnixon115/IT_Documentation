@@ -29,5 +29,14 @@
   5. Highlighting the Success & Failures: The successes of each action and the failures.
   6. Document any End-user actions: Document if the end-user perform actions that can hinder or assist in future troubleshooting.
   7. Resolution: Clearly state the solution to the issue. If not, then outline the recommended steps to take or escalation procedure.
+## Problem Solving
+1. Define the problem.
+2. Gather detailed information.
+3. Identify a probable cause of the failure.
+4. Devise a plan to resolve the problem.
+5. Make necessary changes to implement the plan.
+6. Observe the results of the changes.
+7. If the problem is not resolved, repeat the process.
+8. Document the changes made to resolve the problem.
 
  
