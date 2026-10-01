@@ -8,6 +8,25 @@
 
 ## macOS & Linux Ubuntu Distro
 
-1. Security software known to the OS's 
-2. <img width="1080" height="554" alt="image" src="https://github.com/user-attachments/assets/94032633-c8ea-48a3-83fd-443a50e51056" />
+- Linux & macOS are descendants of Unix, which was created in 1969 at Bell Labs.
+- Linux was developed by Linus Torvalds, who wanted a free alternative to Unix that anyone can modify.
+
+##### macOS & Ubuntu Tips:
+  1. Keychain is a security credential manager embedded in macOS.
+  2. Gnome-Keying is a security credential manager embedded in Ubuntu.
+  3. Signautre contains sample code used by viruses/malware.
+  5. Firmware is the lowest-level functionality for a device.
+  6. Patches update minor or major common vulnerabilities from third-party companies.
+  7. Cron is a service that can schedule a process to run a script, application, or command.
+
+##### Virtualization
+  1. Virtualization allows the user to run a virtualized computer inside a machine.
+- ###### There are two types of virtualization: Type-1 Hypervisor & Type-2 Hypervisor
+  - A Type-1 Hypervisor runs on bare metal or hardware. This allows for multiple instances to run on a machine without passing through the main OS's.
+  - <img width="356" height="192" alt="image" src="https://github.com/user-attachments/assets/9c60a096-a5af-458c-b637-56b8af094362" />
+  - A Type-2 Hypervisor sits on top of the OS's and acts as a guest. The guest can utilize resources, but only if the host can dictate what resources are allowed.
+  - <img width="298" height="209" alt="image" src="https://github.com/user-attachments/assets/46da3c73-3cdd-4edd-8b4c-3f9659eeef08" />
+
+
+
 
