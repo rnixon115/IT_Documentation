@@ -24,7 +24,7 @@
 - ###### There are two types of virtualization: Type-1 Hypervisor & Type-2 Hypervisor
   - A Type-1 Hypervisor runs on bare metal or hardware. This allows for multiple instances to run on a machine without passing through the main OS's.
   - <img width="356" height="192" alt="image" src="https://github.com/user-attachments/assets/9c60a096-a5af-458c-b637-56b8af094362" />
-  - A Type-2 Hypervisor sits on top of the OS's and acts as a guest. The guest can utilize resources, but only if the host can dictate what resources are allowed.
+  - A Type-2 Hypervisor sits on top of the OS's and acts as a guest. The guest can use resources, but only the host dictates which resources it can use.
   - <img width="298" height="209" alt="image" src="https://github.com/user-attachments/assets/46da3c73-3cdd-4edd-8b4c-3f9659eeef08" />
 
 
