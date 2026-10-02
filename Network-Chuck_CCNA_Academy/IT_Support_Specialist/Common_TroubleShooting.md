@@ -25,6 +25,7 @@
 ## Multi-Authentication Issues:
 
 | Problem | What Is The Probable Cause | How To Troubleshoot |
+| :-----: | :------------------------: | :-----------------: |
 | App Codes not Working | Smartphone/Tablet Time is Wrong | Make sure to set the time to automatic |
 | Lost or Broken Smartphone/Tablet | No access to the codes | Reset the MFA using backup codes or recovery options. |
 | Can't scan the QR code | Camera issue or wrong app | Make sure the correct authenticator app is correct and the camera works |
