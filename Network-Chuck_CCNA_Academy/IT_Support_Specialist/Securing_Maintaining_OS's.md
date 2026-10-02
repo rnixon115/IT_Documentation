@@ -6,6 +6,39 @@
 3. Driver and Firmware Updates – Updates for hardware components, sometimes included in Windows Update.
 4. Optional Updates – Feature enhancements and non-security updates that require manual installation.
 
+#### Users & Groups
+
+- Administrator: An admin is a user with full control of the computer and folders. Note: "Unless if the operating system is Windows" 
+- Users: Users can perform common tasks on a workstation by running applications, accessing a local printer, etc.
+- Guest: A guest is a temporarily profile that is created and deleted from signing in the computer, to signing off.
+  
+#### Linux & macOS
+
+- Linux and macOS have similar roles. Linux has Owner, Groups, and Others. Each one 
+
+#### Permissions 
+| Permission | Description |
+| :--------: | :---------: |
+| Full Control | Allows for complete access to the computer, files, folders, modifying permissions, and taking ownership. |
+| Modify | Allows reading, writing, and deleting files and folders, but not changing permissions. |
+| Read & Execute | Allowing the user to read a file and execute applications. |
+| List Folder Contents | Displays files, folders, and sub-directories. |
+| Read | Allowing a user to get the content of a file or folder. | 
+| Write | Allowing a user to create new files and edit existing ones. |
+
+#### Steps To Resetting a Password in Local User and Groups Manager
+1. Log in as an Admin.
+2. Open Users and Groups Manager.
+3. Go to the "Users" folder.
+4. Right-click on the user's name and select "Set Password".
+5. Click on "Proceed" on the warning box.
+6. Type a new password and confirm.
+
+#### Steps to Resetting a Password in Active Directory  
+
+1. Open up the run box and type in "dsa.msc".
+2. Find the User's folder 
+
 ## macOS & Linux Ubuntu Distro
 
 - Linux & macOS are descendants of Unix, which was created in 1969 at Bell Labs.
