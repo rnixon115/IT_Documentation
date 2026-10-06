@@ -27,18 +27,40 @@
 | Write | Allows a user to create new files and edit existing ones. |
 
 #### Steps to Reset a Password in Local Users and Groups Manager
+
 1. Log in as an Admin.
 2. Open Users and Groups Manager.
+   - <img width="570" height="337" alt="image" src="https://github.com/user-attachments/assets/b5a4db4f-9c39-4ce5-85ef-9dee1f3e8d4e" />
 3. Go to the "Users" folder.
-4. Right-click on the user's name and select "Set Password".
-5. Click on "Proceed" in the warning box.
-6. Type a new password and confirm.
+   - <img width="1467" height="816" alt="image" src="https://github.com/user-attachments/assets/16d543b1-66b9-4c14-aef1-fdcfe3f3078e" />
+5. Right-click on the user's name and select "Set Password".
+   - <img width="1467" height="816" alt="image" src="https://github.com/user-attachments/assets/41782067-c286-464f-8d42-50d4be6f009b" />
+7. Click on "Proceed" in the warning box.
+   - <img width="1467" height="816" alt="image" src="https://github.com/user-attachments/assets/685b172c-4e5a-475e-a4f9-f80590bc0d81" />
+9. Type a new password and confirm.
+   - <img width="1467" height="816" alt="image" src="https://github.com/user-attachments/assets/e58fb25b-2dda-481e-9a37-898c9a7c1130" />
 
 #### Steps to Reset a Password in Active Directory  
 
 1. Open up the Run box and type in "dsa.msc".
-2. Find the user's account by searching for the user folder and search by the username of the user.
-3. Right-click the user's name and select Password 
+   - <img width="572" height="339" alt="image" src="https://github.com/user-attachments/assets/fafde53d-7183-4deb-88f8-43743f59349d" />
+2. Find the user's account by searching for the user folder and searching by the user's username.
+   - <img width="751" height="526" alt="image" src="https://github.com/user-attachments/assets/a988039d-a142-4cd6-9240-cc7caa185d75" />
+3. Right-click the user's name and select Password.
+   - <img width="750" height="528" alt="image" src="https://github.com/user-attachments/assets/a0cc48e7-116d-49ba-a410-c3f25e98dff0" />
+4. Enter the password and confirm it.
+   - <img width="748" height="527" alt="image" src="https://github.com/user-attachments/assets/b90c9c7a-42d6-43cc-8aa0-7fce76d98826" />
+5. Select "ok"
+   - <img width="378" height="257" alt="image" src="https://github.com/user-attachments/assets/69ccce23-7bb1-4d77-97c2-fe284d6721d2" />
+
+#### Steps to Unlock AD Account Lockouts
+
+1. Open Active Directory & Users and Computers.
+   - <img width="1176" height="888" alt="image" src="https://github.com/user-attachments/assets/cca8e8f1-5d18-4194-bf92-28849e76cb46" />
+2. Locate the account and select the account properties.
+   - <img width="1175" height="784" alt="image" src="https://github.com/user-attachments/assets/6b83424a-c0bb-48ef-b52a-ae67301feefd" />
+3. Unlock the Account
+   - <img width="1174" height="790" alt="image" src="https://github.com/user-attachments/assets/629ceda2-324c-4346-946a-d15a7ee50617" />
 
 ## macOS & Linux Ubuntu Distro
 
