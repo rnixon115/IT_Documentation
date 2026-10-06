@@ -6,20 +6,16 @@
 3. Driver and Firmware Updates – Updates for hardware components, sometimes included in Windows Update.
 4. Optional Updates – Feature enhancements and non-security updates that require manual installation.
 
-#### Users & Groups
+#### Windows Users & Groups
 
 - Administrator: An admin is a user with full control of the computer and folders. Note: Unless the operating system is Windows 
 - Users: Users can perform common tasks on a workstation by running applications, accessing a local printer, etc.
 - Guest: A guest is a temporary profile that is created and deleted from signing in to the computer to signing off.
-  
-#### Linux & macOS
 
-- Linux and macOS have similar roles. Linux has Owner, Groups, and Others. Each one 
-
-#### Permissions 
+#### Windows Permissions 
 | Permission | Description |
 | :--------: | :---------: |
-| Full Control | Allows for complete access to the computer, files, folders, modifying permissions, and taking ownership. |
+| Full Control | Allows complete access to the computer, files, and folders; modifying permissions; and taking ownership. |
 | Modify | Allows reading, writing, and deleting files and folders, but not changing permissions. |
 | Read & Execute | Allows the user to read a file and execute applications. |
 | List Folder Contents | Displays files, folders, and subdirectories. |
@@ -62,8 +58,9 @@
 3. Unlock the Account
    - <img width="1174" height="790" alt="image" src="https://github.com/user-attachments/assets/629ceda2-324c-4346-946a-d15a7ee50617" />
 
-## macOS & Linux Ubuntu Distro
+## macOS & Linux Ubuntu Distro 
 
+- Linux and macOS have similar roles. Linux has Owner, Groups, and Others. Each one 
 - Linux & macOS are descendants of Unix, which was created in 1969 at Bell Labs.
 - Linux was developed by Linus Torvalds, who wanted a free alternative to Unix that anyone can modify.
 
