@@ -64,13 +64,29 @@
 - Linux & macOS are descendants of Unix, which was created in 1969 at Bell Labs.
 - Linux was developed by Linus Torvalds, who wanted a free alternative to Unix that anyone can modify.
 
+#### Linux & macOS Users & Groups
+
+1. Linux & macOS permissions are based on Unix file permissions. 
+- <img width="917" height="134" alt="image" src="https://github.com/user-attachments/assets/f0a280d1-df52-4989-871f-71e6c06078c3" />
+2. So, users, groups, and others can manipulate a file or directory when permissions are given.
+| Octal Value | Users | Groups | Others |
+| ----------- | ----- | ------ | ------ |
+|     777     | rwx   | rwx    | rwx    |
+|     755     | rwx   | rw-    | rw-    | 
+|     700     | rwx   | ---    | ---    |
+|     666     | rw-   | rw-    | rw-    |
+|     644     | rw-   | r--    | r--    | 
+|     600     | rw-   | ---    | ---    |
+
+
+
 ##### macOS & Ubuntu Tips:
   1. Keychain is a security credential manager embedded in macOS.
   2. Gnome-Keying is a security credential manager embedded in Ubuntu.
   3. Signautre contains sample code used by viruses/malware.
   5. Firmware is the lowest-level functionality for a device.
   6. Patches update minor or major common vulnerabilities from third-party companies.
-  7. Cron is a service that can schedule a process to run a script, application, or command.
+  7. Cron is a service that can schedule a process to run a script, application, or command. 
 
 ##### Virtualization
   1. Virtualization allows the user to run a virtualized computer inside a machine.
