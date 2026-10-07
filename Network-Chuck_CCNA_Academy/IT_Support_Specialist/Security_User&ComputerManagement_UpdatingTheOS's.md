@@ -70,7 +70,7 @@
 - <img width="917" height="134" alt="image" src="https://github.com/user-attachments/assets/f0a280d1-df52-4989-871f-71e6c06078c3" />
 2. So, users, groups, and others can manipulate a file or directory when permissions are given.
 | Octal Value | Users | Groups | Others |
-| ----------- | ----- | ------ | ------ |
+| :---------: | :---: | :----: | :----: |
 |     777     | rwx   | rwx    | rwx    |
 |     755     | rwx   | rw-    | rw-    | 
 |     700     | rwx   | ---    | ---    |
