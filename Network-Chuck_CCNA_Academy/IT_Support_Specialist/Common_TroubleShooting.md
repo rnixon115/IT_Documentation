@@ -39,6 +39,10 @@
 | :-----: | :-------: |
 | Printer isn't powered on | Check that the power cable is securely connected |
 | Printer is in sleep mode or in an error state | Press the power button or read the manufacturer's manual. 
-| USB cable unplugged or broken | 
+| USB cable unplugged or broken | Change out the USB Cable for another |
+| Not connected to Wi-Fi | Make sure that the SSID is correct, the password is correct, the printer can handle the security encryption type, and the printer is getting an IP address that isn't "169.254.X.X" |
+| The driver is not installed or is corrupted | Uninstall the driver and reinstall the driver |
+| Wrong printer selected | Make sure that the printer is added and selected | 
+
 
 
