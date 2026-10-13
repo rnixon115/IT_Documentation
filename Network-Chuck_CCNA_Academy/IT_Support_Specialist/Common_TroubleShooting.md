@@ -13,10 +13,10 @@
 - #### Refresh Rate
   1. Refresh rate is measured in Hertz (Hz) and indicates how fast the monitor can redraw the screen. For example, playing a video game requires a higher refresh rate due to the amount of changes on the screen.
 - #### Other Troubleshooting Tips
-  1. Check the connections and make sure that the cables work. Always keep a spare just in case.
+  1. Check the connections and make sure that the cables work. Keep a spare on hand, just in case.
   2. When the display is flickering, make sure that the refresh rate is set to the optimal choice, or change the inverter inside the monitor.
   3. When the display shows horizontal lines or a glitchy screen. Check the monitor or computer's hardware for a disconnected cable. If the cable is connected, make sure no dust or debris is blocking the GPU cooling system. If there is no dust or obstruction, the GPU may be faulty, and it's time to replace it.
-  4. If you're seeing a ghost display, "display is experiencing burn-in". Make sure to unplug the power for a few hours. If the problem persists, then try degaussing the screen if applicable. If not, then replace the monitor.
+  4. If you're seeing a ghost display, "display is experiencing burn-in". Unplug the power for a few hours. If the problem persists, then try degaussing the screen if applicable. If not, then replace the monitor.
   5. If images on the screen look distorted, then the driver has been corrupted, or the display settings are misconfigured. Update or reinstall the driver in Safe Mode or correct the settings.
   6. Overly sized icons and/or images can be resolved by changing the settings or replacing the driver in Safe Mode.
 ## Power Settings and Troubleshooting
@@ -44,5 +44,12 @@
 | The driver is not installed or is corrupted | Uninstall the driver and reinstall the driver |
 | Wrong printer selected | Make sure that the printer is added and selected | 
 
+#### Paper Jam
 
-
+| Reasons | Solutions | 
+| Paper Inserted Incorrectly | Access the paper intake and carefully remove the paper jam |
+| Rollers are worn or dirty | Clean or replace the rollers if applicable |
+| Paper is too thick, curled, or damp | Place the appropriate paper thickness according to the printer manual, and place dry, flat paper in the input tray |
+| Overloaded paper tray | Reduce paper stack to halfway of the tray depth, and make sure the stack of paper is neat | 
+| Debris, foreign objects, or torn paper inside | Inspect the internal mechanism and remove the object | 
+| 
