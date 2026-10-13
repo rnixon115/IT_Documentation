@@ -57,6 +57,7 @@
 #### Clearing the print Queue
 
 | Reasons | Solutions | 
+| :-----: | :-------: |
 | Stuck or paused print job | Open print queue and manually cancel all jobs | 
 | Print spooler service not responding | restart the print spooler service | 
 | Too many jobs waiting | Clear the queue of all jobs |
