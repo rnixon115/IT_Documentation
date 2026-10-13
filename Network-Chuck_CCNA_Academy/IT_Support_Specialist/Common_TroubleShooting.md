@@ -15,10 +15,10 @@
 - #### Other Troubleshooting Tips
   1. Check the connections and make sure that the cables work. Keep a spare on hand, just in case.
   2. When the display is flickering, make sure that the refresh rate is set to the optimal choice, or change the inverter inside the monitor.
-  3. When the display shows horizontal lines or a glitchy screen. Check the monitor or computer's hardware for a disconnected cable. If the cable is connected, make sure no dust or debris is blocking the GPU cooling system. If there is no dust or obstruction, the GPU may be faulty, and it's time to replace it.
+  3. When the display shows horizontal lines or a glitchy screen, check the monitor or computer's hardware. Check the monitor or computer's hardware for a disconnected cable. If the cable is connected, make sure no dust or debris is blocking the GPU cooling system. If there is no dust or obstruction, the GPU may be faulty, and it's time to replace it.
   4. If you're seeing a ghost display, "display is experiencing burn-in". Unplug the power for a few hours. If the problem persists, then try degaussing the screen if applicable. If not, then replace the monitor.
   5. If images on the screen look distorted, then the driver has been corrupted, or the display settings are misconfigured. Update or reinstall the driver in Safe Mode or correct the settings.
-  6. Overly sized icons and/or images can be resolved by changing the settings or replacing the driver in Safe Mode.
+  6. Oversized icons and/or images can be resolved by changing the settings or replacing the driver in Safe Mode.
 ## Power Settings and Troubleshooting
 - Hibernate files, applications, and the state of the operating system are saved to a temporary file on the hard drive. With this option, the computer takes a little longer to power on than Sleep, but uses no power to retain the information on the hard drive.
 
@@ -28,7 +28,7 @@
 | :-----: | :------------------------: | :-----------------: |
 | App Codes not Working | Smartphone/Tablet Time is Wrong | Make sure to set the time to automatic |
 | Lost or Broken Smartphone/Tablet | No access to the codes | Reset the MFA using backup codes or recovery options. |
-| Can't scan the QR code | Camera issue or wrong app | Make sure the correct authenticator app is correct and the camera works |
+| Can't scan the QR code | Camera issue or wrong app | Make sure the correct authenticator app is used, and the camera works |
 | Deleted authenticator app by mistake | Codes are gone | User must register again |
 
 ## Printer, Scanners, Faxes
@@ -71,4 +71,11 @@
 | Incorrect toner/ink | Verify compatability with printer model | 
 | Toner/ink not seated correctly | Remove and reseat the Toner/Ink cart correctly |
 | Print quality issues after swap | Run a cleaning or calibration cycle from printer settings | 
+
+#### Blurry or Cropped Scan 
+
+| Reasons | Solutions | 
+| :-----: | :-------: | 
+| Paper not positioned correctly | Align the paper according to the scanner guidelines | 
+| Dust or smudges on scanner glass | Gently clean the scanner glass 
 
