@@ -47,6 +47,7 @@
 #### Paper Jam
 
 | Reasons | Solutions | 
+| :-----: | :-------: |
 | Paper Inserted Incorrectly | Access the paper intake and carefully remove the paper jam |
 | Rollers are worn or dirty | Clean or replace the rollers if applicable |
 | Paper is too thick, curled, or damp | Place the appropriate paper thickness according to the printer manual, and place dry, flat paper in the input tray |
