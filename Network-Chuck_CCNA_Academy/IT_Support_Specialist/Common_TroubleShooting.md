@@ -77,5 +77,11 @@
 | Reasons | Solutions | 
 | :-----: | :-------: | 
 | Paper not positioned correctly | Align the paper according to the scanner guidelines | 
-| Dust or smudges on scanner glass | Gently clean the scanner glass 
+| Dust or smudges on scanner glass | Gently clean the scanner glass with a soft, dry cloth | 
+| Low resolution setting | Increase DPI to 300 or more for better clarity | 
+| Paper feed roller misaligned | Adjust the paper guides and reload |
+
+#### Scanned File went to the Wrong Folder 
+
+| Reasons | 
 
