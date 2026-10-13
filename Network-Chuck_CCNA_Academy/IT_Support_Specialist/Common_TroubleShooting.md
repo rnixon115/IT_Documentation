@@ -53,4 +53,16 @@
 | Paper is too thick, curled, or damp | Place the appropriate paper thickness according to the printer manual, and place dry, flat paper in the input tray |
 | Overloaded paper tray | Reduce paper stack to halfway of the tray depth, and make sure the stack of paper is neat | 
 | Debris, foreign objects, or torn paper inside | Inspect the internal mechanism and remove the object | 
-| 
+
+#### Clearing the print Queue
+
+| Reasons | Solutions | 
+| Stuck or paused print job | Open print queue and manually cancel all jobs | 
+| Print spooler service not responding | restart the print spooler service | 
+| Too many jobs waiting | Clear the queue of all jobs |
+| Printer not accepting new jobs | Restart the printer and computer | 
+
+#### Toner or Ink Replacement 
+
+
+| Reasons |  
