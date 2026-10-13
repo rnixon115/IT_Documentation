@@ -65,5 +65,10 @@
 
 #### Toner or Ink Replacement 
 
+| Reasons | Solutions | 
+| :-----: | :-------: |
+| Toner or ink is low or empty | Replace the toner or ink | 
+| Incorrect toner/ink | Verify compatability with printer model | 
+| Toner/ink not seated correctly | Remove and reseat the Toner/Ink cart correctly |
+| Print quality issues after swap | Run a cleaning or calibration cycle from printer settings | 
 
-| Reasons |  
