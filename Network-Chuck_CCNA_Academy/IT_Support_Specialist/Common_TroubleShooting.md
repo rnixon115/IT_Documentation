@@ -102,6 +102,16 @@
 | Reasons | Solutions | 
 | :-----: | :-------: |
 | Wrong or incomplete number | Make sure to recheck the number if it's incorrect |
+| Receiver's line is busy | Wait a couple of minutes to resend the fax |
+| No dial tones or landline issue | Test the cable with a landline phone; if there are no dial tones, try another RJ-11 cable. If that doesn't work, speak to your landline company | 
+| Fax is in sleep mode or in error mode | Wake the fax machine on by pressing a button or check the error message on the screen | 
+
+#### No Dial Tones
+
+| Reasons | Solutions | 
+| :-----: | :-------: |
+| Cable is loose | Check the connections on the fax machine and on the wall or modem | 
+| Wrong port used for the fax machine | Use the correct port on the back of the fax machine to transmit. Also, make sure to use the correct port on the back of the modem |
 | 
 
 
