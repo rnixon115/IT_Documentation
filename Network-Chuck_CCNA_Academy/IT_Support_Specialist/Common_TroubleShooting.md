@@ -33,6 +33,8 @@
 
 ## Printer, Scanners, Faxes
 
+### Printer
+
 #### User Can't Connect To The Printer
 
 | Reasons | Solutions | 
@@ -72,6 +74,8 @@
 | Toner/ink not seated correctly | Remove and reseat the Toner/Ink cart correctly |
 | Print quality issues after swap | Run a cleaning or calibration cycle from printer settings | 
 
+### Scanning
+
 #### Blurry or Cropped Scan 
 
 | Reasons | Solutions | 
@@ -81,7 +85,25 @@
 | Low resolution setting | Increase DPI to 300 or more for better clarity | 
 | Paper feed roller misaligned | Adjust the paper guides and reload |
 
-#### Scanned File went to the Wrong Folder 
+#### Scanned File Went to the Wrong Folder 
 
-| Reasons | 
+| Reasons | Solution | 
+| :-----: | :------: | 
+| Scanning app uses a default folder | Check the app settings to make sure it's set to a custom destination |
+| User selected the wrong folder | Manually scan and choose the correct folder |
+| Scan-to-email or Scan-to-cloud is misconfigured | Review the settings and make sure that the correct email or folder is selected |
+
+### Faxing
+
+- Even though faxing is archaic, it's commonly used in healthcare, law, and government because it's fast, secure, and doesn't require internet.
+
+#### Fax won't transmit 
+
+| Reasons | Solutions | 
+| :-----: | :-------: |
+| Wrong or incomplete number | Make sure to recheck the number if it's incorrect |
+| 
+
+
+
 
