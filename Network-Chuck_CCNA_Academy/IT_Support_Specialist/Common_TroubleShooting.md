@@ -112,7 +112,26 @@
 | :-----: | :-------: |
 | Cable is loose | Check the connections on the fax machine and on the wall or modem | 
 | Wrong port used for the fax machine | Use the correct port on the back of the fax machine to transmit. Also, make sure to use the correct port on the back of the modem |
-| 
+| Faulty wall jack or cable | Test the cable by using a landline phone to detect a dial tone. If you can't hear the dial tone, try another wall jack or another cable |
+| Phone line service down | Contact your landline company or IT support |
+
+#### Paper will not feed through 
+
+| Reasons | Solutions | 
+| :-----: | :-------: |
+| Paper not aligned properly | Make sure to insert paper correctly by following the guide |
+| Paper too wrinkled or thick | Use a clean, dry, flat sheet of paper that is recommended for sending faxes |
+| Feed rollers are dirty or worn | Use a soft cloth to clean the rollers or change the rollers if applicable |
+| Too many pages loaded in the tray | Reduce the stack and realign the paper accordingly | 
+
+## Headphone Problems and Solutions
+
+- Headsets, earphones, and other audio devices can be connected to a device via a 3.5 mm audio jack 3.5mm, USB Type-A, Type-C, or Bluetooth.
+- When it comes to troubleshooting headsets, always ask the end-user how the headset is connected to their device.
+| Wired | Wireless |
+| :---: | :------: |
+| Make sure the plug is in correctly | Make sure Bluetooth is enabled |
+| Check to see if
 
 
 
