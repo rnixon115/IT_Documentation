@@ -115,6 +115,16 @@
 | Faulty wall jack or cable | Test the cable by using a landline phone to detect a dial tone. If you can't hear the dial tone, try another wall jack or another cable |
 | Phone line service down | Contact your phone company | 
 
+## Headphones Problems and Solutions 
+
+#### No Sound from Headphones
+
+| Reasons | Solutions | 
+| :-----: | :-------: |
+| Headphones not selected as the output device | Right-click the speaker icon at the bottom right and click on sound settings. Under Output, select headphones from the list | 
+| Headphones are disabled | Scroll down to All sound devices, find the headphones, and select Enable | 
+| Loose Connection | Make sure the connection is firmly plugged in, and the cable isn't ruined |
+
 
 
 
