@@ -121,10 +121,15 @@
 
 | Reasons | Solutions | 
 | :-----: | :-------: |
-| Headphones not selected as the output device | Right-click the speaker icon at the bottom right and click on sound settings. Under Output, select headphones from the list | 
+| Headphones not selected as the output device | Right-click the speaker icon at the bottom right and open Sound settings. Under Output, select headphones from the list | 
 | Headphones are disabled | Scroll down to All sound devices, find the headphones, and select Enable | 
 | Loose Connection | Make sure the connection is firmly plugged in, and the cable isn't ruined |
 
+#### Headphones not recognized/not showing up
+
+| Reasons | Solutions | 
+| Speakers are still set as default | Go to Settings -> System -> Sound and under Output, select the headphones and select Set as default | 
+| Headphones still aren't recognized | Unplug the cable from the computer, then plug it back in. Restart any app requiring the headphones | 
 
 
 
