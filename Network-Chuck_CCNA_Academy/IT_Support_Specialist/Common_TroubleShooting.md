@@ -128,6 +128,7 @@
 #### Headphones not recognized/not showing up
 
 | Reasons | Solutions | 
+| :-----: | :-------: |
 | Speakers are still set as default | Go to Settings -> System -> Sound and under Output, select the headphones and select Set as default | 
 | Headphones still aren't recognized | Unplug the cable from the computer, then plug it back in. Restart any app requiring the headphones | 
 | Outdated drivers | Go to Device Manager and update the audio driver under Sound | 
