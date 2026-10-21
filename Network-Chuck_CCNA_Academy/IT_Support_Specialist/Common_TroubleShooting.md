@@ -31,7 +31,7 @@
 | Can't scan the QR code | Camera issue or wrong app | Make sure the correct authenticator app is used, and the camera works |
 | Deleted authenticator app by mistake | Codes are gone | User must register again |
 
-## Printer, Scanners, Faxes
+## Printing, Scanning, Faxing
 
 ### Printer
 
