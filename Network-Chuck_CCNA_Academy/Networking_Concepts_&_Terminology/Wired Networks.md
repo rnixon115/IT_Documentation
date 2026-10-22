@@ -29,9 +29,10 @@
 - <img width="1000" height="666" alt="image" src="https://github.com/user-attachments/assets/3e1a906d-c2ff-4dc0-8654-30230c161eab" />
 - Fiber optics come with different types of connectors for different purposes.
 - <img width="1156" height="607" alt="image" src="https://github.com/user-attachments/assets/522cb474-7d2a-4059-820c-2116dafc8c60" />
-- Unlike copper cable, fiber-optic isn't sensitive to electromagnetic interference or radio-frequency interference. Fiber optics utilizes light pulses that get converted into electrical signals. Vice versa, electrical signals are converted into light pulses to travel long distances.
+- Unlike copper cable, fiber-optic cable isn't sensitive to electromagnetic interference or radio-frequency interference. Fiber optics utilizes light pulses that get converted into electrical signals. Vice versa, electrical signals are converted into light pulses to travel long distances.
 - Fiber optics has impressive distances; light pulses create a clearer signal and greater bandwidth than copper.
 - Fiber optics is susceptible to sharp bends and a bad actor tapping the line. Servicing fiber optics requires a specialist to splice and terminate the cable.
+- The Telecommunications Industry Association (TIA) and Electronic Industries Alliance (EIA) labeled the TIA/EIA-598-C standard number for fiber optics. 
   
 
 
