@@ -31,5 +31,18 @@
 5. An access point provides the 802.11 standard.
 6. A switch provides ports for wired LAN devices.
 7. A router provides access to other networks.
-8. 
+
+##### Wireless Settings
+
+<img width="624" height="520" alt="image" src="https://github.com/user-attachments/assets/6db4f7dc-49df-4a59-a6d6-251aea7733a7" />
+
+- Network Mode determines the technology standard being used. Devices that comply with the 802.11 AP standard can obtain maximum transmission speed. If the AP is set up with only one mode, devices must be able to connect to that specific mode. 
+- Network Name (SSID): Is used to identify the Wi-Fi so that end devices can connect to the Wi-Fi. SSID stands for Service Set Identifier.
+- Network Broadcast: The AP broadcasts the SSID to nearby devices. Broadcasting the name has been disabled; client devices have to enter it manually. Tip: Even disabling the broadcast will not make the security strong; ensure that the AP is set to the highest encryption and change the password from the default.
+
+##### AP Categories
+
+- An Autonomous AP is a standalone device that is set up in a SOHO setup, small office, or organizational event. Typically, you can set up an autonomous AP via a GUI or CLI interface
+
+
 
