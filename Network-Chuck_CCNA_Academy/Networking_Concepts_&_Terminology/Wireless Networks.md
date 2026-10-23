@@ -22,4 +22,14 @@
 | 802.11ax               | 2.4 GHz & 5 GHz | Also known as Wi-Fi 6 or High-Efficiency Wireless (HEW), improved power efficiency, higher transmission rates, increased capacity, and handles many connected devices; will use 2.4 GHz, 5 GHz, or 1 GHz to 7 GHz when available; Wi-Fi 6E adds 6 GHz band to assist throughput in dense Wi-Fi areas |
 | 802.11be               | 2.4 GHz, 5 GHz, & 6 GHz | Also known as Wi-Fi 7 or Extremely High Throughput (EHT), delivers low latency, faster speeds, and reliability for AR/VR or 8K video | 
 
+#### WLAN Components
+
+1. End device with the capability to connect to Wi-Fi with a transmitter and a receiver.
+2. Wireless Network Interface Card.
+3. If a device doesn't have an integrated Wireless NIC, then a USB wireless adapter is needed.
+4. Many devices such as Smartphones, Tablets, Laptops, smart thermostats, etc have a built-in Wireless antenna.
+5. An access point provides the 802.11 standard.
+6. A switch provides ports for wired LAN devices.
+7. A router provides access to other networks.
+8. 
 
