@@ -1,6 +1,6 @@
 ## Wireless Networks 
 
-##### Wireless Technologies
+##### Wireless Technologies 
 
 - Wireless technology is composed of unlicensed radio waves in the electromagnetic spectrum. <img width="1665" height="240" alt="image" src="https://github.com/user-attachments/assets/50905d55-3d23-4ff7-8af7-c18f59e224f7" />
 - The Wireless Fidelity (802.11) standard was created by the Institute of Electrical and Electronics Engineers; the organization is responsible for networking standards. The organization was founded in February 1980, which led to the creation of the 802 (year, month). 802.11 is the standard number for wireless local area network technologies.
@@ -40,9 +40,14 @@
 - Network Name (SSID): Is used to identify the Wi-Fi so that end devices can connect to the Wi-Fi. SSID stands for Service Set Identifier.
 - Network Broadcast: The AP broadcasts the SSID to nearby devices. Broadcasting the name has been disabled; client devices have to enter it manually. Tip: Even disabling the broadcast will not make the security strong; ensure that the AP is set to the highest encryption and change the password from the default.
 
-##### AP Categories
+##### AP Categories 
 
-- An Autonomous AP is a standalone device that is set up in a SOHO setup, small office, or organizational event. Typically, you can set up an autonomous AP via a GUI or CLI interface
+- An Autonomous AP is a standalone device that is set up in a SOHO setup, small office, or organizational event. Typically, you can set up an autonomous AP via a GUI or CLI interface, and it doesn't need to be managed by a centralized system.
+- <img width="938" height="647" alt="image" src="https://github.com/user-attachments/assets/af227713-bf48-4612-89ed-ad37fd6956a1" />
+- A Controller-Based AP is a centralized system that controls APs in an office or campus-wide area. Each AP is a lightweight AP (LAP) because of Lightweight Access Point Protocol (LWAPP) to communicate with a WLAN Controller (WLC). The WLAN Controller automatically manages and configures each AP in a network.
+- <img width="958" height="634" alt="image" src="https://github.com/user-attachments/assets/986bcbce-5f4d-4488-88d4-5dca94245a5e" />
+- Example: [TP-Link Omada AP's](https://www.omadanetworks.com/us/landing/omada-access-point/)
 
+  
 
 
