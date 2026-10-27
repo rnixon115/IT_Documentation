@@ -44,9 +44,9 @@
 
 - An Autonomous AP is a standalone device that is set up in a SOHO setup, small office, or organizational event. Typically, you can set up an autonomous AP via a GUI or CLI interface, and it doesn't need to be managed by a centralized system.
 - <img width="938" height="647" alt="image" src="https://github.com/user-attachments/assets/af227713-bf48-4612-89ed-ad37fd6956a1" />
-- A Controller-Based AP is a centralized system that controls APs in an office or campus-wide area. Each AP is a lightweight AP (LAP) because of Lightweight Access Point Protocol (LWAPP) to communicate with a WLAN Controller (WLC). The WLAN Controller automatically manages and configures each AP in a network.
-- <img width="958" height="634" alt="image" src="https://github.com/user-attachments/assets/986bcbce-5f4d-4488-88d4-5dca94245a5e" />
-- Example: [TP-Link Omada AP's](https://www.omadanetworks.com/us/landing/omada-access-point/)
+- A Controller-Based AP is a centralized system that controls APs in an office or campus-wide area. Each AP is a lightweight AP (LAP) because it uses the Lightweight Access Point Protocol (LWAPP) to communicate with a WLAN Controller (WLC). The WLAN Controller automatically manages and configures each AP in a network.
+- <img width="788" height="663" alt="image" src="https://github.com/user-attachments/assets/1e2a1136-bad8-4558-a203-e0d628c87819" />
+- Example: [TP-Link Omada APs](https://www.omadanetworks.com/us/landing/omada-access-point/)
 
   
 
