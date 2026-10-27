@@ -61,7 +61,7 @@
 3. Compatibility Issues:
    - Problem: Modern wireless routers have a higher standard, making it harder for older wireless technologies to connect.
    - Solution: Check the online manual of the wireless router to see if there's an option to support old standards. If that option isn't available, go buy a wireless router that can support older wireless standards.
-   - 
+     
   
 
 
