@@ -36,18 +36,32 @@
 
 <img width="624" height="520" alt="image" src="https://github.com/user-attachments/assets/6db4f7dc-49df-4a59-a6d6-251aea7733a7" />
 
-- Network Mode determines the technology standard being used. Devices that comply with the 802.11 AP standard can obtain maximum transmission speed. If the AP is set up with only one mode, devices must be able to connect to that specific mode. 
+- Network Mode determines the technology standard being used. Devices that comply with the 802.11 AP standard can achieve maximum transmission speed. If the AP is set up with only one mode, devices must be able to connect to that specific mode. One Service Set Identifier maps to a VLAN in an office environment. Also, several AP's can have the same SSID depending on how they're configured. 
 - Network Name (SSID): Is used to identify the Wi-Fi so that end devices can connect to the Wi-Fi. SSID stands for Service Set Identifier.
-- Network Broadcast: The AP broadcasts the SSID to nearby devices. Broadcasting the name has been disabled; client devices have to enter it manually. Tip: Even disabling the broadcast will not make the security strong; ensure that the AP is set to the highest encryption and change the password from the default.
+- Network Broadcast: The AP broadcasts the SSID to nearby devices. Broadcasting the name has been disabled; client devices must enter it manually. Tip: Even disabling the broadcast will not make it secure; ensure the AP uses the strongest encryption and change the default password.
+- Channel Settings: The channel settings refer to which frequency band to use when transmitting wireless data. Wireless routers and Access Points can scan the radio frequency channels and select a channel setting automatically. You can manually set the channel if there's interference.
+- Security Mode: Security mode refers to the security parameter, and the security parameter can be WEP, WPA, WPA-2, WPA-3, etc.
 
 ##### AP Categories 
 
-- An Autonomous AP is a standalone device that is set up in a SOHO setup, small office, or organizational event. Typically, you can set up an autonomous AP via a GUI or CLI interface, and it doesn't need to be managed by a centralized system.
-- <img width="938" height="647" alt="image" src="https://github.com/user-attachments/assets/af227713-bf48-4612-89ed-ad37fd6956a1" />
+- An Autonomous AP is a standalone device that is set up in a SOHO setup, small office, or organizational event. Typically, you can set up an autonomous AP via a GUI or CLI interface, and it doesn't need to be managed by a centralized system. 
+- <img width="653" height="470" alt="image" src="https://github.com/user-attachments/assets/ccc83e61-52e5-45d2-99c3-62892ee4a0e5" />
 - A Controller-Based AP is a centralized system that controls APs in an office or campus-wide area. Each AP is a lightweight AP (LAP) because it uses the Lightweight Access Point Protocol (LWAPP) to communicate with a WLAN Controller (WLC). The WLAN Controller automatically manages and configures each AP in a network.
 - <img width="788" height="663" alt="image" src="https://github.com/user-attachments/assets/1e2a1136-bad8-4558-a203-e0d628c87819" />
 - Example: [TP-Link Omada APs](https://www.omadanetworks.com/us/landing/omada-access-point/)
 
+##### Common Problems & Solutions to WLAN 
+
+1. Range and Coverage Problems:
+   - Problem: WLAN has a limited coverage area. Devices that are too far from the router will experience latency and lose connection.
+   - Solution: To resolve the issue, it's best to set up repeaters or a wireless mesh network to expand coverage.
+2. Bandwidth Bottlenecks:
+   - Problem: Too many devices connected to the same WLAN, and network congestion leads to slow data speeds.
+   - Solution: Upgrade the current WLAN or add more AP's. When expanding, make sure that the channels do not overlap.
+3. Compatibility Issues:
+   - Problem: Modern wireless routers have a higher standard, making it harder for older wireless technologies to connect.
+   - Solution: Check the online manual of the wireless router to see if there's an option to support old standards. If that option isn't available, go buy a wireless router that can support older wireless standards.
+   - 
   
 
 
