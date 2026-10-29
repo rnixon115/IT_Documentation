@@ -1,5 +1,82 @@
 ## Internet Protocol Version 4
 
+### Binary, Decimal, Hexadecimal Conversion Table
+
+| Binary | Decimal | Hexadecimal |
+  | :----: | :-----: | :---------: |
+  | 00000000 | 0     | 00          |
+  | 00000001 | 1     | 01          |
+  | 00000010 | 2     | 02          |
+  | 00000011 | 3     | 03          |
+  | 00000100 | 4     | 04          |
+  | 00000101 | 5     | 05          |
+  | 00000110 | 6     | 06          |
+  | 00000111 | 7     | 07          |
+  | 00001000 | 8     | 08          |
+  | 00001001 | 9     | 09          |
+  | 00001010 | 10    | 0A          |
+  | 00001011 | 11    | 0B          |
+  | 00001100 | 12    | 0C          |
+  | 00001101 | 13    | 0D          |
+  | 00001110 | 14    | 0E          |
+  | 00001111 | 15    | 0F          |
+  | 00010000 | 16    | 10          |
+  | 00010001 | 17    | 11          |
+  | 00010010 | 18    | 12          |
+  | 00010011 | 19    | 13          |
+  | 00010100 | 20    | 14          |
+  | 00010101 | 21    | 15          |
+  | 00010110 | 22    | 16          |
+  | 00010111 | 23    | 17          |
+  | 00011000 | 24    | 18          |
+  | 00011001 | 25    | 19          |
+  | 00011010 | 26    | 1A          |
+  | 00011011 | 27    | 1B          |
+  | 00011100 | 28    | 1C          |
+  | 00011101 | 29    | 1D          |
+  | 00011110 | 30    | 1E          |
+  | 00011111 | 31    | 1F          |
+  | 00100000 | 32    | 20          |
+  | 00100001 | 33    | 21          |
+  | 00100010 | 34    | 22          |
+  | 00100011 | 35    | 23          | 
+  | 00100100 | 36    | 24          | 
+  | 00100101 | 37    | 25          |
+  | 00100110 | 38    | 26          |
+  | 00100111 | 39    | 27          |
+  | 00101000 | 40    | 28          |
+  | 00101001 | 41    | 29          |
+  | 00101010 | 42    | 2A          |
+  | 00101011 | 43    | 2B          |
+  | 00101100 | 44    | 2C          |
+  | 00101101 | 45    | 2D          |
+  | 00101110 | 46    | 2E          |
+  | 00101111 | 47    | 2F          |
+  | 00110000 | 48    | 30          |
+  | 00110001 | 49    | 31          |
+  | 00110010 | 50    | 32          |
+  | 00110011 | 51    | 33          |
+  | 00110100 | 52    | 34          |
+  | 00110101 | 53    | 35          |
+  | 00110110 | 54    | 36          |
+  | 00110111 | 55    | 37          |
+  | 00111000 | 56    | 38          |
+  | 00111001 | 57    | 39          |
+  | 00111010 | 58    | 3A          |
+  | 00111011 | 59    | 3B          |
+  | 00111100 | 60    | 3C          |
+  | 00111101 | 61    | 3D          |
+  | 00111110 | 62    | 3E          |
+  | 00111111 | 63    | 3F          |
+  | 01000000 | 64    | 40          |
+  | 01000001 | 65    | 41          |
+  | 01000010 | 66    | 42          |
+  | 01000011 | 67    | 43          |
+  | 01000100 | 68    | 44          |
+  | 01000101 | 69    | 45          |
+  | 01000110 | 70    | 46          |
+  | 01000111 | 71    | 47          |
+  | 01001000 | 72    | 48          |
 - A MAC address is the device identifier and starts at the data-link layer.
   
 | Address Format | Description | 
@@ -8,7 +85,18 @@
 | 00:31:AC:D0:F2:99 | Two hexadecimal digits separated by colons. | 
 | 0320.AB69.32FC | Four hexadecimal digits separated by periods. |
 - MAC addresses are 48 bits in total. 
-
-- An IP address is a logical address identifier. An IP address is manually assigned by a network administrator or automatically via DHCP/BOOTP. When a device moves to a new network, the IP address changes. 
   
-#### 
+#### IPv4 Address
+
+- An IP address has 32 bits; then the 32 bits are divided into 4 parts. Each part makes a byte. A byte equals 8 bits, and a bit that's a 1 going from right to left increases by two.
+  1100000010101000110010001101010
+  11000000.10101000.1100100.01101010
+  192.168.100.106
+- An IP address is a logical address identifier. An IP address is manually assigned by a network administrator or automatically via DHCP/BOOTP. When a device moves to a new network, the IP address changes.
+- IP address is identified with two types: Network address, Host Address, and Broadcast Address.
+  1. The network address tells the router which Network the IP address came from.
+  2. The host address tells the router which device this IP address belongs to.
+  3. The broadcast address allows devices to acquire resources by pinging the network.
+ 
+  
+  
