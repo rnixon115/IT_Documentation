@@ -1,5 +1,3 @@
-## Internet Protocol Version 4
-
 ### Binary, Decimal, Hexadecimal, Power of 2, Conversion Table
 
   | Binary | Decimal | Hexadecimal | 2 to the Power of N | 
