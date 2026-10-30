@@ -144,12 +144,15 @@
   
 #### IPv4 Address
 
-- An IP address has 32 bits; the 32 bits are divided into 4 parts. Each part makes a byte, and a byte equals 8 bits; a bit that's a 1, going from right to left, increases by two.
-  1100000010101000110010001101010
-  11000000.10101000.1100100.01101010
-  192.168.100.106
-- An IP address is a logical address identifier. An IP address is manually assigned by a network administrator or automatically via DHCP/BOOTP. When a device moves to a new network, the IP address changes.
-- IP address is identified with two types: Network address, Host Address, and Broadcast Address.
+- An IP address has 32 bits; the 32 bits are divided into 4 parts. Each part is a byte (8 bits); a bit that's a 1, going from right to left, increases by two.
+| Subnet Mask | Private Network Address | Host Address | Broadcast Address |
+| :---------: | :---------------------: | :----------: | :---------------: |
+| 255.255.255.0 | 192.168.100.0 | 192.168.100.10       | 192.168.100.255   |
+| 255.255.0.0   | 172.16.0.0    | 172.16.100.10        | 172.16.255.255    |
+| 255.0.0.0     | 10.0.0.0      | 10.32.1.15           | 10.255.255.255    | 
+
+- An IP address is a logical address identifier. A network administrator manually assigns an IP address, or DHCP/BOOTP assigns it automatically. When a device moves to a new network, the IP address changes.
+- An IP address is identified by three types: Network address, Host Address, and Broadcast Address.
   1. The network address tells the router which Network the IP address came from.
   2. The host address tells the router which device this IP address belongs to.
   3. The broadcast address allows devices to acquire resources by pinging the network.
