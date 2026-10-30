@@ -144,7 +144,15 @@
   
 #### IPv4 Address
 
-- An IP address has 32 bits; the 32 bits are divided into 4 parts. Each part is a byte (8 bits); a bit that's a 1, going from right to left, increases by two.
+- An IP address has 32 bits; the 32 bits are divided into 4 parts. Each part is a byte (8 bits); the bit that's a 1, going from right to left, increases by two.
+
+- An IP address is a logical address identifier. A network administrator manually assigns an IP address, or DHCP/BOOTP assigns it automatically. When a device moves to a new network, the IP address changes.
+- An IP address is identified by three types: Network address, Host Address, and Broadcast Address.
+  1. The network address tells the router which Network the IP address came from.
+  2. The host address tells the router which device this IP address belongs to.
+  3. The broadcast address allows devices to acquire resources by pinging the network.
+
+###### Example of Private Network Addresses
 
 | Subnet Mask | Private Network Address | Host Address | Broadcast Address |
 | :---------: | :---------------------: | :----------: | :---------------: |
@@ -152,11 +160,12 @@
 | 255.255.0.0   | 172.16.0.0    | 172.16.100.10        | 172.16.255.255    |
 | 255.0.0.0     | 10.0.0.0      | 10.32.1.15           | 10.255.255.255    | 
 
-- An IP address is a logical address identifier. A network administrator manually assigns an IP address, or DHCP/BOOTP assigns it automatically. When a device moves to a new network, the IP address changes.
-- An IP address is identified by three types: Network address, Host Address, and Broadcast Address.
-  1. The network address tells the router which Network the IP address came from.
-  2. The host address tells the router which device this IP address belongs to.
-  3. The broadcast address allows devices to acquire resources by pinging the network.
+
+ - The IPv4 address limit was reached back in the late 90s since an IPv4 address has 32 bits; the max capacity is approximately 4,294,967,296, or 2^32. So, the Internet Engineering Task Force (IETF) created IPv6 addresses as a solution. 
+
+#### IPv6 Address
+
+- An IPv6 address has 128 bits, represented in hexadecimal format. 
  
   
   
