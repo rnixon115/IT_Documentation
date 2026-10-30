@@ -145,6 +145,8 @@
 #### IPv4 Address
 
 - An IP address has 32 bits; the 32 bits are divided into 4 parts. Each part is a byte (8 bits); a bit that's a 1, going from right to left, increases by two.
+
+
 | Subnet Mask | Private Network Address | Host Address | Broadcast Address |
 | :---------: | :---------------------: | :----------: | :---------------: |
 | 255.255.255.0 | 192.168.100.0 | 192.168.100.10       | 192.168.100.255   |
