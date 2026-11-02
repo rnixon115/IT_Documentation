@@ -161,11 +161,9 @@
 | 255.0.0.0     | 10.0.0.0      | 10.32.1.15           | 10.255.255.255    | 
 
 
- - The IPv4 address limit was reached back in the late 90s since an IPv4 address has 32 bits; the max capacity is approximately 4,294,967,296, or 2^32. So, the Internet Engineering Task Force (IETF) created IPv6 addresses as a solution. 
+ - The IPv4 address limit was reached back in the late 90s since an IPv4 address has 32 bits; the max capacity is approximately 4,294,967,296, or 2^32. So, the Internet Engineering Task Force (IETF) created IPv6 addresses to address this. 
 
 #### IPv6 Address
 
-- An IPv6 address has 128 bits, represented in hexadecimal format. 
- 
-  
+- An IPv6 address has 128 bits, represented in hexadecimal format. Each hexadecimal digit is a nibble (4 bits), and 4 hexadecimal digits total 16 bits. They're 816 bits segments, separated by colons. 816 bit segments give us 128 bits. Which the IPv6 address in compressed format 
   
