@@ -165,5 +165,20 @@
 
 #### IPv6 Address
 
-- An IPv6 address has 128 bits, represented in hexadecimal format. Each hexadecimal digit is a nibble (4 bits), and 4 hexadecimal digits total 16 bits. They're 816 bits segments, separated by colons. 816 bit segments give us 128 bits. Which the IPv6 address in compressed format 
+- An IPv6 address has 128 bits, represented in hexadecimal format. Each hexadecimal digit is a nibble (4 bits), and 4 hexadecimal digits total 16 bits. There are 16 hexadecimal values, and each hexadecimal digit is called a hextets.
+
+| IPv6 Address, Hextets | Hextets | Hextets | Hextets | Hextets | Hextets | Hextets | Hextets | Compressed | 
+| :-------------------: | :-----: | :-----: | :-----: | :-----: | :-----: | :-----: | :-----: | :--------: |
+| 2001 | 0DB8 | 0000 | 1111 | 0000 | 0000 | 0000 | 0200 | 2001:DB8:0:1111::200 | 
+| FE80 | 0000 | 0000 | 0000 | 0123 | 4567 | 89AB | CDEF | FE80::123:4567:89AB:CDEF |
+| FF02 | 0000 | 0000 | 0000 | 0000 | 0000 | 0000 | 0001 | FF02::1 | 
+
+- There are two rules to help minimize the size of an IPv6 address.
+  1. Omit leading 0s
+     - 0db8 can be represented as db8, in the first IPv6 address.
+     - 0123 can be represented as 123 in the second IPv6 address.
+     - 0001 can be represented as 1 in the third IPv6 address.
+  2. When there's a sequence of 0s
+     - 0000 0000 0000 0 can be represented as :: in the first IPv6 address.
+     - 0000 0000 0000 0 can be represented as :: 
   
