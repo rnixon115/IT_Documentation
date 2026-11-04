@@ -183,18 +183,22 @@
 
 #### Static Addressing
 
-  - Static addresses do not change when configure properly. A static address is more reliable versus a dynamic address because when changes occur, the devices on the network might not immediately detect the change. This can cause issues until devices synchronize with the network change. 
+  - Static addresses do not change when configured properly. A static address is more reliable than a dynamic address because devices on the network may not immediately detect changes. This can cause issues until devices synchronize with the network change. 
   - An IP address is used to identify the device on the network.
   - A subnet mask is used to identify which network an IP address is associated with.
   - The default gateway is used by devices to connect to the internet or other networks.
-  - Optional values can vary depending on the software managing the network on the client device. Domain Name System (DNS) is a common option for client devices to select, and an alternative DNS option. 
+  - Optional values can vary depending on the software managing the network on the client device. Domain Name System (DNS) is a common option for client devices, and another option is selecting an alternative DNS. 
 
   - <img width="628" height="713" alt="image" src="https://github.com/user-attachments/assets/efe4e143-ec1d-4e19-8f08-24cd4b3c1d04" />
   - <img width="628" height="522" alt="image" src="https://github.com/user-attachments/assets/adf04ccf-64eb-44d4-b41f-ee894757680f" />
 
  #### Dynamic Addressing
  
- - Dynamic addressing is much simpler than static addresses because it automatically configures an IP address for the device. Dynamic addressing uses Dynamic Host Configuration Protocol (DHCP) or Bootstrap Protocol.
+ - Dynamic addressing is much simpler than static addressing because it automatically configures an IP address for the device. Dynamic addressing uses Dynamic Host Configuration Protocol (DHCP) or Bootstrap Protocol.
  - DHCP uses D.O.R.A or Discover-Offer-Request-Acknowledge process.
-   1. Discover: A device will 
+   1. Discover: A DHCP Client will send out a Discover message for the DHCP server on the network. Since the client doesn't know the DHCP server's IP address, it broadcasts 255.255.255.255. The DHCP client broadcasts on the network and broadcasts on the data link layer. 
+   - DHCP Client: Source_IP: 0.0.0.0, Destination_IP: 255.255.255.255, Src_MAC_Addr: Device MAC Address, Dst_MAC_Addr: FF:FF:FF:FF:FF:FF
+   2. Offer: The DHCP server receives the Discover message from the client and relays a DHCP offer request to the client with information. The DHCP Client still doesn't have an IP address. The DHCP server broadcasts at the network layer, and the data link layer is unicast. 
+   - DHCP Server: Source_IP_Of_DHCP_Server: IP Address of The DHCP Server, Destination_Address: 255.255.255.255, Src_MAC_Addr: DHCP Server MAC address, Dst_MAC_Addr: MAC address of the DHCP Client 
+   3. 
 
