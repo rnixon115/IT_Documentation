@@ -179,6 +179,22 @@
      - 0123 can be represented as 123 in the second IPv6 address.
      - 0001 can be represented as 1 in the third IPv6 address.
   2. When there's a sequence of 0s
-     - 0000 0000 0000 0 can be represented as :: in the first IPv6 address.
-     - 0000 0000 0000 0 can be represented as :: 
-  
+     - 0000 0000 0000 can be represented as :: in the IPv6 address.
+
+#### Static Addressing
+
+  - Static addresses do not change when configure properly. A static address is more reliable versus a dynamic address because when changes occur, the devices on the network might not immediately detect the change. This can cause issues until devices synchronize with the network change. 
+  - An IP address is used to identify the device on the network.
+  - A subnet mask is used to identify which network an IP address is associated with.
+  - The default gateway is used by devices to connect to the internet or other networks.
+  - Optional values can vary depending on the software managing the network on the client device. Domain Name System (DNS) is a common option for client devices to select, and an alternative DNS option. 
+
+  - <img width="628" height="713" alt="image" src="https://github.com/user-attachments/assets/efe4e143-ec1d-4e19-8f08-24cd4b3c1d04" />
+  - <img width="628" height="522" alt="image" src="https://github.com/user-attachments/assets/adf04ccf-64eb-44d4-b41f-ee894757680f" />
+
+ #### Dynamic Addressing
+ 
+ - Dynamic addressing is much simpler than static addresses because it automatically configures an IP address for the device. Dynamic addressing uses Dynamic Host Configuration Protocol (DHCP) or Bootstrap Protocol.
+ - DHCP uses D.O.R.A or Discover-Offer-Request-Acknowledge process.
+   1. Discover: A device will 
+
