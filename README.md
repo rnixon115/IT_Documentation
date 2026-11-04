@@ -5,6 +5,7 @@
 1. Showcases topics that I learned in Network-Chuck Academy. 🥇
 2. Podman_Tutorials is on hold at the moment but will be updated soon. 📈
 3. The Networking_Concepts directory is deprecated. 😄
+4. Check out "IP-Addressing.md" under the Networking_Concepts_&_Terminology folder to see the latest updates. ☕
 
 ### My Journey in the IT world 
 
