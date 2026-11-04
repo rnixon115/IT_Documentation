@@ -187,7 +187,7 @@
   - An IP address is used to identify the device on the network.
   - A subnet mask is used to identify which network an IP address is associated with.
   - The default gateway is used by devices to connect to the internet or other networks.
-  - Optional values can vary depending on the software managing the network on the client device. Domain Name System (DNS) is a common option for client devices, and another option is selecting an alternative DNS. 
+  - Optional values can vary depending on the software managing the network on the client device. Domain Name System (DNS) is a common option for client devices, and an alternative DNS is also an option. 
 
   - <img width="628" height="713" alt="image" src="https://github.com/user-attachments/assets/efe4e143-ec1d-4e19-8f08-24cd4b3c1d04" />
   - <img width="628" height="522" alt="image" src="https://github.com/user-attachments/assets/adf04ccf-64eb-44d4-b41f-ee894757680f" />
@@ -200,10 +200,29 @@
        - DHCP Client: Source_IP: 0.0.0.0, Destination_IP: 255.255.255.255, Src_MAC_Addr: DHCP Client's MAC Address, Dst_MAC_Addr: FF:FF:FF:FF:FF:FF;
    2. **OFFER, PORT(UDP 68, CLIENT), UNICAST:** The DHCP server receives the Discover message from the client and relays a DHCP offer request to the client with information. The DHCP Client still doesn't have an IP address. The DHCP server broadcasts at the network layer, and the data link layer is unicast. 
        - DHCP Server: Source_IP: IP Address of The DHCP Server, Destination_Address: 255.255.255.255, Src_MAC_Addr: DHCP Server's MAC address, Dst_MAC_Addr: MAC address of the DHCP Client;
-   3. **REQUEST, PORT(UDP 68, SERVER), BROADCAST:** The DHCP client receives the Offer message and sends back a Request message to the DHCP server. The message tells the DHCP server that the client accepts the IP address given by the DHCP server. The destination address is 255.255.255.255 because there may be one DHCP server or there's a DHCP relay server.
+   3. **REQUEST, PORT(UDP 68, SERVER), BROADCAST:** The DHCP client receives the Offer message and sends back a Request message to the DHCP server. The message tells the DHCP server the client accepts the IP address. The destination address is 255.255.255.255 because there may be one DHCP server or there's a DHCP relay server.
         - DHCP Client: Source_IP: 0.0.0.0, Dst_IP_Source: 255.255.255.255, Src_MAC_Addr: DHCP Client's MAC address, Dst_MAC_Addr: DHCP Server's MAC address;
    4. **ACKNOWLEDGE, PORT(UDP 67, CLIENT), BROADCAST:** At the end of setting up the DHCP Client on the network, the DHCP server broadcasts a message to confirm the lease of the IP address and settings on the client. The acknowledgement indicates the DHCP client can set up its network interface with the provided information. DHCP ACK message is essential because it tells the DHCP Client it can now use the IP address.
         - DHCP Client: Source_IP: Assigned IP address, Destination_IP: 255.255.255.255, Src_MAC_Addr: DHCP Client's MAC address, Dst_MAC_Addr: DHCP Server's MAC address;
+     
+ - Note: I'll note on DHCPv6 later. 
+     
+  #### Subnetting
+
+  | Dotted-Decimal Notation | Slash Notation | 
+  | :---------------------: | :------------: | 
+  | 255.255.255.0 | /24 | 
+  | 255.255.0.0   | /16 |
+  | 255.240.0.0   | /12 | 
+  | 255.0.0.0     | /8  |
+
+  - Slash notation is another way of figuring out the subnet mask by how many bits are flipped.
+  - IPv4 subnet mask plays a critical role in networking.
+      1. Identifying Boundaries: Helps intermediary devices to know if a packet belongs to a LAN or to another network.
+      2. Efficient IP Address Management: Subnet masks can allocate IP addresses efficiently and improve scalability by dividing an IP network into smaller segments.
+      3. Enhances Security: Dividing networks into subnets groups together devices, which improves security and reduces traffic.
+      4. Improves Performance: A structured subnet minimizes congestion, and devices communicate under the same subnet mask unless routing to other networks is needed.
+      5. Supports Network Design: Organizations use subnetting to segment networks for departments, services, regions, and to make network administration easier. 
      
   
 
