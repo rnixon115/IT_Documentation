@@ -222,7 +222,19 @@
       2. Efficient IP Address Management: Subnet masks can allocate IP addresses efficiently and improve scalability by dividing an IP network into smaller segments.
       3. Enhances Security: Dividing networks into subnets groups together devices, which improves security and reduces traffic.
       4. Improves Performance: A structured subnet minimizes congestion, and devices communicate under the same subnet mask unless routing to other networks is needed.
-      5. Supports Network Design: Organizations use subnetting to segment networks for departments, services, regions, and to make network administration easier. 
+      5. Supports Network Design: Organizations use subnetting to segment networks for departments, services, regions, and to make network administration easier.
+   
+  #### Private & Public Addresses
+
+  - There are two types of logical addresses: internal & external.
+      1. Private addresses can be used only within the scope of a local area network. Private addresses must be translated to a public address to access the Internet. 
+      2. Public addresses can be used outside the scope of a local area network. Public addresses are routed globally over the Internet.
+
+  | Network Address and Prefix | Private Address Range |
+  | :------------------------: | :-------------------: | 
+  | 10.0.0.0/8                 | 10.0.0.0 - 10.255.255.255 | 
+  | 172.16.0.0/12              | 172.16.0.0 - 172.16.255.255 |
+  | 192.168.0.0/16             | 192.168.0.0 - 192.168.255.255 |
      
   
 
