@@ -227,14 +227,43 @@
   #### Private & Public Addresses
 
   - There are two types of logical addresses: internal & external.
-      1. Private addresses can be used only within the scope of a local area network. Private addresses must be translated to a public address to access the Internet. 
+      1. Private addresses can be used only within the scope of a local area network. To access the Internet, private addresses must be translated to a public address. 
       2. Public addresses can be used outside the scope of a local area network. Public addresses are routed globally over the Internet.
+      3. Private addresses get translated into public addresses by network address translation (NAT), which is a 1:1 ratio.
+      4. Private addresses can also be translated via port address translation (PAT), which is a MANY:1 ratio and uses the transport layer.
 
   | Network Address and Prefix | Private Address Range |
   | :------------------------: | :-------------------: | 
   | 10.0.0.0/8                 | 10.0.0.0 - 10.255.255.255 | 
   | 172.16.0.0/12              | 172.16.0.0 - 172.16.255.255 |
   | 192.168.0.0/16             | 192.168.0.0 - 192.168.255.255 |
-     
+
+  #### Types of IPv4 Addresses
+
+  - There are three methods for IPv4 addresses traversing networks
+      1. UNICAST: A sender on a network will send out packets to a recipient using a unicast address.
+         | IPv4 Addresses | HOST | UNICAST |
+         | :------------: | :--: | :-----: | 
+         | 192.168.0.30   | Bob  | NULL
+         | 192.168.0.40   | Canon | CANON: SRC_IP: 192.168.0.40; to DST_IP: 192.168.0.10; | 
+         | 192.168.0.10   | Joe | RECEIVE |
+         | 192.168.0.1    | Router | NULL | 
+         
+      3. MULTICAST: A sender will send a multicast address to multiple recipients. Multicast also reduces traffic by sending to select recipients rather than broadcasting. IPv4 reserves the 224.0.0.0 to 239.255.255.255 range for multicast.
+         | IPv4 Addresses | HOST | MULTICAST |
+         | :------------: | :--: | :-----: | 
+         | 192.168.0.30   | Bob  | RECEIVE | 
+         | 192.168.0.40   | Canon | CANON: SRC_IP: 192.168.0.40; to DST_IP: 192.168.0.10, 192.168.0.30; | 
+         | 192.168.0.10   | Joe | RECEIVE |
+         | 192.168.0.1    | Router | NULL | 
+      5. BROADCAST: A device will flood the network with all 1s, or 255.255.255.255. The device is new to the network or is searching for a resource and doesn't know who to ask.
+         | IPv4 Addresses | HOST | MULTICAST |
+         | :------------: | :--: | :-----: | 
+         | 192.168.0.30   | Bob  | RECEIVE | 
+         | 192.168.0.40   | Canon | CANON: SRC_IP: 192.168.0.40 OR 0.0.0.0 IF NO IP ADDRESS; to DST_IP: 255.255.255.255; | 
+         | 192.168.0.10   | Joe | RECEIVE |
+         | 192.168.0.1    | Router | RECEIVE | 
+   
+  
   
 
