@@ -257,7 +257,7 @@
          | 192.168.0.10   | Joe | RECEIVE |
          | 192.168.0.1    | Router | NULL | 
       5. BROADCAST: A device will flood the network with all 1s, or 255.255.255.255. The device is new to the network or is searching for a resource and doesn't know who to ask.
-         | IPv4 Addresses | HOST | MULTICAST |
+         | IPv4 Addresses | HOST | BROADCAST |
          | :------------: | :--: | :-----: | 
          | 192.168.0.30   | Bob  | RECEIVE | 
          | 192.168.0.40   | Canon | CANON: SRC_IP: 192.168.0.40 OR 0.0.0.0 IF NO IP ADDRESS; to DST_IP: 255.255.255.255; | 
