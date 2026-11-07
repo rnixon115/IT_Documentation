@@ -1,1 +1,9 @@
-
+- DHCP uses D.O.R.A or Discover-Offer-Request-Acknowledge process.
+   1. **DISCOVER, PORT(UDP 67, SERVER), BROADCAST:** A DHCP Client will send out a Discover message for the DHCP server on the network. Since the client doesn't know the DHCP server's IP address, it broadcasts 255.255.255.255. The DHCP client broadcasts on the network and broadcasts on the data link layer. 
+       - DHCP Client: Source_IP: 0.0.0.0, Destination_IP: 255.255.255.255, Src_MAC_Addr: DHCP Client's MAC Address, Dst_MAC_Addr: FF:FF:FF:FF:FF:FF;
+   2. **OFFER, PORT(UDP 68, CLIENT), UNICAST:** The DHCP server receives the Discover message from the client and relays a DHCP offer request to the client with information. The DHCP Client still doesn't have an IP address. The DHCP server broadcasts at the network layer, and the data link layer is unicast. 
+       - DHCP Server: Source_IP: IP Address of The DHCP Server, Destination_Address: 255.255.255.255, Src_MAC_Addr: DHCP Server's MAC address, Dst_MAC_Addr: MAC address of the DHCP Client;
+   3. **REQUEST, PORT(UDP 68, SERVER), BROADCAST:** The DHCP client receives the Offer message and sends back a Request message to the DHCP server. The message tells the DHCP server the client accepts the IP address. The destination address is 255.255.255.255 because there may be one DHCP server or there's a DHCP relay server.
+        - DHCP Client: Source_IP: 0.0.0.0, Dst_IP_Source: 255.255.255.255, Src_MAC_Addr: DHCP Client's MAC address, Dst_MAC_Addr: DHCP Server's MAC address;
+   4. **ACKNOWLEDGE, PORT(UDP 67, CLIENT), BROADCAST:** At the end of setting up the DHCP Client on the network, the DHCP server broadcasts a message to confirm the lease of the IP address and settings to the client. The acknowledgement indicates the DHCP client can set up its network interface with the provided information. DHCP ACK message is essential because it tells the DHCP Client it can now use the IP address.
+        - DHCP Client: Source_IP: Assigned IP address, Destination_IP: 255.255.255.255, Src_MAC_Addr: DHCP Client's MAC address, Dst_MAC_Addr: DHCP Server's MAC address;
