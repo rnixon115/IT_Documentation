@@ -202,7 +202,7 @@
        - DHCP Server: Source_IP: IP Address of The DHCP Server, Destination_Address: 255.255.255.255, Src_MAC_Addr: DHCP Server's MAC address, Dst_MAC_Addr: MAC address of the DHCP Client;
    3. **REQUEST, PORT(UDP 68, SERVER), BROADCAST:** The DHCP client receives the Offer message and sends back a Request message to the DHCP server. The message tells the DHCP server the client accepts the IP address. The destination address is 255.255.255.255 because there may be one DHCP server or there's a DHCP relay server.
         - DHCP Client: Source_IP: 0.0.0.0, Dst_IP_Source: 255.255.255.255, Src_MAC_Addr: DHCP Client's MAC address, Dst_MAC_Addr: DHCP Server's MAC address;
-   4. **ACKNOWLEDGE, PORT(UDP 67, CLIENT), BROADCAST:** At the end of setting up the DHCP Client on the network, the DHCP server broadcasts a message to confirm the lease of the IP address and settings on the client. The acknowledgement indicates the DHCP client can set up its network interface with the provided information. DHCP ACK message is essential because it tells the DHCP Client it can now use the IP address.
+   4. **ACKNOWLEDGE, PORT(UDP 67, CLIENT), BROADCAST:** At the end of setting up the DHCP Client on the network, the DHCP server broadcasts a message to confirm the lease of the IP address and settings to the client. The acknowledgement indicates the DHCP client can set up its network interface with the provided information. DHCP ACK message is essential because it tells the DHCP Client it can now use the IP address.
         - DHCP Client: Source_IP: Assigned IP address, Destination_IP: 255.255.255.255, Src_MAC_Addr: DHCP Client's MAC address, Dst_MAC_Addr: DHCP Server's MAC address;
      
  - Note: I'll note on DHCPv6 later. 
@@ -227,10 +227,10 @@
   #### Private & Public Addresses
 
   - There are two types of logical addresses: internal & external.
-      1. Private addresses can be used only within the scope of a local area network. To access the Internet, private addresses must be translated to a public address. 
+      1. Private addresses can be used only within the scope of a local area network. To access the Internet, private addresses must be translated into public addresses. 
       2. Public addresses can be used outside the scope of a local area network. Public addresses are routed globally over the Internet.
-      3. Private addresses get translated into public addresses by network address translation (NAT), which is a 1:1 ratio.
-      4. Private addresses can also be translated via port address translation (PAT), which is a MANY:1 ratio and uses the transport layer.
+      3. Private addresses get translated into public addresses by network address translation (NAT), which is a 1:1.
+      4. Private addresses can also be translated via port address translation (PAT), which is a MANY:1 and uses the transport layer.
 
   | Network Address and Prefix | Private Address Range |
   | :------------------------: | :-------------------: | 
@@ -263,6 +263,19 @@
          | 192.168.0.40   | Canon | CANON: SRC_IP: 192.168.0.40 OR 0.0.0.0 IF NO IP ADDRESS; to DST_IP: 255.255.255.255; | 
          | 192.168.0.10   | Joe | RECEIVE |
          | 192.168.0.1    | Router | RECEIVE | 
+   
+   #### Types of IPv6 Addresses
+
+   - IPv6 has three different types of addresses: UNICAST, MULTICAST, and ANYCAST.
+     1. UNICAST:
+          - An IPv6 unicast address uniquely identifies a specific interface on an IPv6-enabled device.
+     2. MULTICAST:
+          - An IPv6 multicast address is utilized to transmit a single IPv6 packet to multiple recipients.
+     3. ANYCAST:
+          - An IPv6 anycast address functions as a distinct type of IPv6 unicast address that can be allocated to several devices. When a packet is sent to an anycast address, it is intelligently routed to the nearest device associated with that address.
+      4. Unlike IPv4, IPv6 does not have a broadcast address. However, IPv6 all-nodes multicast addresses have the same result.
+    
+    
    
   
   
