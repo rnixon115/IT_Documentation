@@ -274,8 +274,19 @@
      3. ANYCAST:
           - An IPv6 anycast address functions as a distinct type of IPv6 unicast address that can be allocated to several devices. When a packet is sent to an anycast address, it is intelligently routed to the nearest device associated with that address.
       4. Unlike IPv4, IPv6 does not have a broadcast address. However, IPv6 all-nodes multicast addresses have the same result.
-    
-    
+
+  #### Recognizing Global Unicast Address (GUA) Vs Link-Local Address (LLA)
+
+  - An IPv6 unicast address identifies an interface on an IPv6-enabled device. A packet sent to a unicast address is received by the interface that is assigned that address. An IPv6 address must be a unicast address, similar to an IPv4 address. The destination IPv6 address can be a unicast or multicast address.
+  - <img width="1029" height="764" alt="image" src="https://github.com/user-attachments/assets/8998a896-5dd5-4a72-923f-fa6f28796c92" />
+  - Global Unicast Address (GUA): Is similar to a public IPv4 address and is a globally unique, internet-routable address. A Global Unicast Address can be assigned automatically or statically.
+  - <img width="1297" height="704" alt="image" src="https://github.com/user-attachments/assets/d3bb625d-1dd2-4a2d-8439-19d97b875465" />
+  -  Link-Local Address (LLA): Is similar to a private IPv4 address, and the device must be IPv6-enabled and can communicate on the same link. The Link-Local Address must be unique because the link isn't routable. Note: Routers will not forward Link-Local addresses. 
+  -  <img width="1069" height="735" alt="image" src="https://github.com/user-attachments/assets/246d9ad1-4d36-4282-b66e-ab806641beb7" />
+  
+
+
+     
    
   
   
