@@ -1,3 +1,23 @@
+## DNS, DHCP, HTTP
+
+#### Domain Name System (DNS)
+
+- The Domain Name System is the World Wide Web phonebook. On the internet, Fully Qualified Domain Names (FQDNs), such as https://www.google.com, are much easier to remember than 201.145.32.12.
+- DNS lookup is a 5-step Process:
+     1. Type the name of the FQDN's web address.
+     2. A DNS Lookup query is sent to the corresponding DNS server.
+        - <img width="1189" height="473" alt="image" src="https://github.com/user-attachments/assets/c5714406-fcfd-4a00-a0a9-f53ab7ecfbec" />
+     3. The DNS Server matches the FQDN with its IP address.
+        - <img width="1241" height="506" alt="image" src="https://github.com/user-attachments/assets/67219a3d-3a20-4343-8d12-b481d4db8da9" />
+     4. The DNS Server sends the client the IP address of the FQDN server.
+        - <img width="1194" height="480" alt="image" src="https://github.com/user-attachments/assets/df9c1cf3-e4ac-4f93-9db3-c801f8355fe7" />
+     5. The client uses the IP address to request the server.
+        - <img width="1213" height="491" alt="image" src="https://github.com/user-attachments/assets/ac4cb323-0741-4716-9ce3-d9eaeceb94d5" />
+- **DNS Caching**
+   -  
+
+
+
 - DHCP uses D.O.R.A or Discover-Offer-Request-Acknowledge process.
    1. **DISCOVER, PORT(UDP 67, SERVER), BROADCAST:** A DHCP Client will send out a Discover message for the DHCP server on the network. Since the client doesn't know the DHCP server's IP address, it broadcasts 255.255.255.255. The DHCP client broadcasts on the network and broadcasts on the data link layer. 
        - DHCP Client: Source_IP: 0.0.0.0, Destination_IP: 255.255.255.255, Src_MAC_Addr: DHCP Client's MAC Address, Dst_MAC_Addr: FF:FF:FF:FF:FF:FF;
