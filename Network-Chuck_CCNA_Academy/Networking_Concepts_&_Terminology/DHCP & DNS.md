@@ -13,8 +13,13 @@
         - <img width="1194" height="480" alt="image" src="https://github.com/user-attachments/assets/df9c1cf3-e4ac-4f93-9db3-c801f8355fe7" />
      5. The client uses the IP address to request the server.
         - <img width="1213" height="491" alt="image" src="https://github.com/user-attachments/assets/ac4cb323-0741-4716-9ce3-d9eaeceb94d5" />
+
 - **DNS Caching**
-   -  
+   -  Initial Query: The client will request the IP address associated with the FQDN from the DNS server. Once the DNS Server sends back the FQDN IP address to the client, they'll store or cache the results into their computer.
+   -  Fast Recall: If you visit a website commonly, the device checks it local cache first. If the FQDN IP address is saved, the client doesn't send a request DNS Server and the web address loads faster.
+   -  Expiration (Time-to-Live or TTL): DNS cache isn't permanent. Time-To-Live (TTL) has a limit, and after time-to-live (TTL) expires, your computer deletes the stored address and ask the DNS Server again.
+ 
+
 
 
 
