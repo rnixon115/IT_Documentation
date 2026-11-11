@@ -16,8 +16,13 @@
 
 - **DNS Caching**
    -  Initial Query: The client will request the IP address associated with the FQDN from the DNS server. Once the DNS Server sends back the FQDN IP address to the client, they'll store or cache the results into their computer.
-   -  Fast Recall: If you visit a website commonly, the device checks it local cache first. If the FQDN IP address is saved, the client doesn't send a request DNS Server and the web address loads faster.
-   -  Expiration (Time-to-Live or TTL): DNS cache isn't permanent. Time-To-Live (TTL) has a limit, and after time-to-live (TTL) expires, your computer deletes the stored address and ask the DNS Server again.
+   -  Fast Recall: If you visit a website commonly, the device checks its local cache first. If the FQDN IP address is saved, the client doesn't send a request to the DNS server, and the web address loads faster.
+   -  Expiration (Time-to-Live or TTL): DNS cache isn't permanent. Time-To-Live (TTL) has a limit, and after the time-to-live (TTL) expires, your computer deletes the stored address and asks the DNS Server again.
+
+### Automatic IP Address Assignment
+
+- Windows IPv4 APIPA: Windows OS's can automatically generate an IPv4 address using APIPA (Automatic Private IP Addressing). APIPA assigns an address from 169.254.0.1 to 169.254.255.254 when no static address is set, and the DHCP Server doesn't respond. APIPA provides LAN connectivity but no internet connectivity.
+- IPv6 LLA: 
  
 
 
