@@ -47,10 +47,18 @@
 
 #### DHCPv6 
 
-1. **DHCPv6 with SLAAC:**
+1. **Stateless DHCPv6 with SLAAC:**
    - A router can be configured to respond to router solicitation (RS) messages with router advertisements (RA) with SLAAC. 
         1. A Client will send a router solicitation message to all IPv6 routers.
         2. The router will send out a router advertisement message to all IPv6 nodes with SLAAC and DHCPv6. The router advertisement response includes the prefix, prefix length, and default gateway. DNS information will come from the DHCPv6 server.
-        3. T
-The PC sends a DHCPv6 Solicit message to all DHCPv6 servers. "I used SLAAC to create my IPv6 address and get my default gateway address, but I need other information from a stateless DHCPv6 server."
+        3. The Client sends out a solicit message to all DHCPv6 servers to obtain DNS info.
+    - <img width="718" height="291" alt="image" src="https://github.com/user-attachments/assets/2182ea5d-2ed0-427c-a8ee-c00f90a32650" />
+
+   
+2. **Stateful DHCPv6:**
+    - Stateful DHCPv6 is similar to DHCP IPv4. A client automatically receives addressing information, including an IPv6 Global Unique Address (GUA), prefix length, and DNS Server addresses from a stateful DHCPv6 server.
+       1. The client sends a router solicitation message to all IPv6 routers.
+       2. The router sends a Router Advertisement message to all IPv6 nodes with Stateful DHCPv6 specified.
+       3. The client then sends a DHCPv6 Solicit message to all DHCPv6 Servers.
+    - <img width="1062" height="439" alt="image" src="https://github.com/user-attachments/assets/e46cff21-89d9-44cd-b676-1e80a6f94f52" />
 
