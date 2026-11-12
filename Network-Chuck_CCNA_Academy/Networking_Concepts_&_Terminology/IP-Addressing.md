@@ -144,7 +144,7 @@
   
 #### IPv4 Address
 
-- An IP address has 32 bits; the 32 bits are divided into 4 parts. Each part is a byte (8 bits); the bit that's a 1, going from right to left, increases by two.
+- An IP address has 32 bits; the 32 bits are divided into 4 parts. Each part is a byte (8 bits); each bit that's a 1, from right to left, adds 2.
 
 - An IP address is a logical address identifier. A network administrator manually assigns an IP address, or DHCP/BOOTP assigns it automatically. When a device moves to a new network, the IP address changes.
 - An IP address is identified by three types: Network address, Host Address, and Broadcast Address.
@@ -187,7 +187,7 @@
   - An IP address is used to identify the device on the network.
   - A subnet mask is used to identify which network an IP address is associated with.
   - The default gateway is used by devices to connect to the internet or other networks.
-  - Optional values can vary depending on the software managing the network on the client device. Domain Name System (DNS) is a common option for client devices, and an alternative DNS is also an option. 
+  - Optional values can vary depending on the software managing the network on the client device. Domain Name System (DNS) is a common option for client devices, and you can also use an alternative DNS. 
 
   - <img width="628" height="713" alt="image" src="https://github.com/user-attachments/assets/efe4e143-ec1d-4e19-8f08-24cd4b3c1d04" />
   - <img width="628" height="522" alt="image" src="https://github.com/user-attachments/assets/adf04ccf-64eb-44d4-b41f-ee894757680f" />
@@ -196,8 +196,8 @@
  
  - Dynamic addressing is much simpler than static addressing because it automatically configures an IP address for the device. Dynamic addressing uses Dynamic Host Configuration Protocol (DHCP) or Bootstrap Protocol.
      
- - Note: DHCP & DNS.md talks more about how DHCP works. 😄
-     
+ - Note: DHCP & DNS.md talks more about how DHCP works. 😄 [DHCP&DNS](https://github.com/rnixon115/IT_Documentation/blob/main/Network-Chuck_CCNA_Academy/Networking_Concepts_%26_Terminology/DHCP%20%26%20DNS.md)
+
   #### Subnetting
 
   | Dotted-Decimal Notation | Slash Notation | 
