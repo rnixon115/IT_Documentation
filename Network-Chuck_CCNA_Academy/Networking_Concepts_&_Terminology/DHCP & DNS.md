@@ -33,7 +33,7 @@
        - Examples: tethering, Bluetooth, hotspot (if no internet access), etc.
     3.  IPv6 SLAAC Issues: IPv6 SLAAC relies on the network broadcast to identify the network prefix. A device may misconfigure IPv6 SLAAC, which causes it to lose connectivity.
 #### DHCP 
-- Note: When it comes to home routers, they're an DHCP client and an DHCP server. The ISP provides internet and addressing, while the router provides an interface for Local Area Network. 
+- Note: When it comes to home routers, they're an DHCP client and a DHCP server. The ISP provides internet and addressing, while the router provides an interface for the Local Area Network. 
 - **DHCP uses D.O.R.A or Discover-Offer-Request-Acknowledge process.**
    1. **DISCOVER, PORT(CLIENT SRC_UDP 68, SERVER DST_UDP 67), BROADCAST:** A DHCP Client will send out a Discover message for the DHCP server on the network. Since the client doesn't know the DHCP server's IP address, it broadcasts 255.255.255.255. The DHCP client broadcasts on the network and broadcasts on the data link layer. 
        - DHCP Client: Source_IP: 0.0.0.0, Destination_IP: 255.255.255.255, Src_MAC_Addr: DHCP Client's MAC Address, Dst_MAC_Addr: FF:FF:FF:FF:FF:FF;
@@ -44,4 +44,13 @@
    4. **ACKNOWLEDGE, PORT(SERVER SRC_UDP 67, CLIENT DST_UDP 68), UNICAST:** At the end of setting up the DHCP Client on the network, the DHCP server broadcasts a message to confirm the lease of the IP address and settings to the client. The acknowledgement indicates the DHCP client can set up its network interface with the provided information. DHCP ACK message is essential because it tells the DHCP Client it can now use the IP address.
         - DHCP Client: Source_IP: Assigned IP address, Destination_IP: 255.255.255.255, Src_MAC_Addr: DHCP Client's MAC address, Dst_MAC_Addr: DHCP Server's MAC address;
 <img width="1280" height="568" alt="image" src="https://github.com/user-attachments/assets/f2ecfa1a-2e4d-42ad-a27c-3e3d2dda51fc" />
+
+#### DHCPv6 
+
+1. **DHCPv6 with SLAAC:**
+   - A router can be configured to respond to router solicitation (RS) messages with router advertisements (RA) with SLAAC. 
+        1. A Client will send a router solicitation message to all IPv6 routers.
+        2. The router will send out a router advertisement message to all IPv6 nodes with SLAAC and DHCPv6. The router advertisement response includes the prefix, prefix length, and default gateway. DNS information will come from the DHCPv6 server.
+        3. T
+The PC sends a DHCPv6 Solicit message to all DHCPv6 servers. "I used SLAAC to create my IPv6 address and get my default gateway address, but I need other information from a stateless DHCPv6 server."
 
