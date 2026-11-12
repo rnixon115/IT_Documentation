@@ -32,7 +32,7 @@
     2. APIPA Limitation: APIPA is great for devices that want to network locally but cannot connect to the internet.
        - Examples: tethering, Bluetooth, hotspot (if no internet access), etc.
     3.  IPv6 SLAAC Issues: IPv6 SLAAC relies on the network broadcast to identify the network prefix. A device may misconfigure IPv6 SLAAC, which causes it to lose connectivity.
-#### DHCP 
+#### DHCPv4
 - Note: When it comes to home routers, they're an DHCP client and a DHCP server. The ISP provides internet and addressing, while the router provides an interface for the Local Area Network. 
 - **DHCP uses D.O.R.A or Discover-Offer-Request-Acknowledge process.**
    1. **DISCOVER, PORT(CLIENT SRC_UDP 68, SERVER DST_UDP 67), BROADCAST:** A DHCP Client will send out a Discover message for the DHCP server on the network. Since the client doesn't know the DHCP server's IP address, it broadcasts 255.255.255.255. The DHCP client broadcasts on the network and broadcasts on the data link layer. 
