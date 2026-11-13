@@ -15,6 +15,6 @@
 
 ### Vector of Network Attacks
 
-- An attack vector is an adjacent path to the organization's network, where the threat actor can gain access to Servers, Hosts, or the network itself. An attack can come from outside or inside the network.
+- An attack vector is an adjacent path to the organization's network, where the threat actor can gain access to Servers, Hosts, or the network itself. An attack can come from outside or inside the network. A threat can also deny 
 - <img width="1003" height="590" alt="image" src="https://github.com/user-attachments/assets/41b6e639-c4a9-4469-8c85-c35892f4c3ff" />
 
