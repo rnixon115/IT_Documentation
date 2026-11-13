@@ -5,8 +5,7 @@
 1. Showcases topics that I learned in Network-Chuck Academy. 🥇
 2. Podman_Tutorials is on hold at the moment but will be updated soon. 📈
 3. The Networking_Concepts directory is deprecated. 😄
-4. Check out "IP-Addressing.md" under the Networking_Concepts_&_Terminology folder to see the latest updates. ☕
-
+   
 ### My Journey in the IT world 
 
 1. So, I earned my bachelor's degree in IT from East Tennessee State University on May 10th, 2025. 👨‍🎓
