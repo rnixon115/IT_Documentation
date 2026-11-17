@@ -11,7 +11,14 @@
 - The last 24-bit address contribute to the vendor-assigned address for the NIC and Interface.
 - A device can have multiple Media Access Control cards that can be plugged into the same LAN or be utilized for another network.
 - When it comes to networking and delivery, it's about identifying devices and knowing where to send the frame or packet.
-- The 48-bit address is represented in hexadecimal format. 
+- The 48-bit address is represented in hexadecimal format.
+  
+##### Address Resolution Protocol (ARP) 
+
+- When a computer needs to know who has this IP address, it'll broadcast out a message asking (BROADCAST @ the DATA-LINK LAYER), "Who has 192.168.0.8? Tell 192.168.0.69"
+- <img width="1238" height="195" alt="image" src="https://github.com/user-attachments/assets/a5d04cb5-513d-4339-bf03-3e05d125301b" />
+
+
 
 ##### Ethernet Cabling
 
