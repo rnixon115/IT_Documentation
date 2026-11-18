@@ -14,6 +14,10 @@
 | Error Handling | Extensive checking with automatic retransmission requests for corrupted packets. | Basic checksum for error detection, but corrupted or missing packets are dropped. | 
 | Applications Services | Web browsing (HTTP/HTTPS), file transfers (FTP), email (SMTP), secure shell (SSH). | Live streaming (video/audio), online multiplayer gaming, DNS lookups, VoIP. | 
 
+###### Socket Pairs 
+
+- Source and destination ports are placed within the segment. The segment is encapsulated within the IP packet. The IP packet contains the source and destination address. The combination of the IP address and ports is known as a socket pair.  
+
 #### Port Numbers 
 
 1. <img width="1024" height="559" alt="image" src="https://github.com/user-attachments/assets/4e32ee94-57a2-4182-a368-9b34d7a29b6f" />
