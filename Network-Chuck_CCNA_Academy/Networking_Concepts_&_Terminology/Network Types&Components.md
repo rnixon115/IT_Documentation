@@ -51,6 +51,7 @@
    - <img width="1024" height="559" alt="image" src="https://github.com/user-attachments/assets/30902da6-2d1d-4136-a6e7-2b6a20c9cc51" />
 2. Scalability: Adjusting the network to new demands. For example (Hiring new staff, adding more WAPs, additional IoT devices, etc.). Each event will strain the existing infrastructure if the engineers don't ensure scalability. That's why network engineers use best practices and protocols to keep operations moving.
    - <img width="1024" height="559" alt="image" src="https://github.com/user-attachments/assets/4b7149dd-c807-4c84-8819-3c03408cd64c" />
+3. Quality Of Service (QoS): Quality of Service is providing higher reliability 
 
 
 
