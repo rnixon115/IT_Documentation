@@ -35,12 +35,22 @@
 
 ### Network Diagrams 
 
-1. PAN - Personal Area Network connects devices through Bluetooth (802.15). Devices such as a keyboard, mouse, speakers, earbuds, smartphone, and printers have the capability of connecting to personal devices over a short distance.
-2. LAN - Local Area Network connects devices through Ethernet (802.3) instead of wirelessly (802.11). LAN is set up in a small geographical area and is owned by a homeowner, IT department, SOHO, etc.
+1. PAN - Personal Area Network connects devices through Bluetooth (802.15). Devices such as keyboards, mice, speakers, earbuds, smartphones, and printers can connect to personal devices over a short distance.
+2. LAN - Local Area Network connects devices through Ethernet (802.3) instead of wirelessly (802.11). A LAN covers a small geographical area and is owned by a homeowner, IT department, SOHO, etc.
 3. WLAN - Wireless Local Area Network connects devices in a small geographical area but utilizes radio waves over cable.
 4. WMN - Wireless Mesh Networks extend the coverage of signal strength throughout the area by APs repeating the signal or directing traffic to the main node.
 5. MAN - Metropolitan Area Network is a network that spans across a campus or a city, utilizing wireless or fiber optics.
 6. WAN - Wide Area Network is two or more distinct locations that span a large geographical area. Example (Tokyo, Japan -> Washington, DC )
 7. NAS - Network Attached Storage is a local file-level storage device on a network.
 8. SAN - Storage Area Network is an enterprise-level storage with high performance and scalable architecture. 
+
+### Network Reliability
+
+1. Fault Tolerance: A fault-tolerant network is adaptable to unexpected events, for example: Router R1 is down, Ethernet cable is damaged, switch port isn't responding. The examples show that faults will happen; it's important to have another path for clients to reach the internet. Having multiple paths ensures connectivity, operational continuity, and happy end-users as well.
+   - A packet-switched network provides reliable redundancy to a network. Packet switching splits traffic into packets that are routed through a shared network. Each packet has the source and destination. Routers will switch the path that packets take depending on the network status. So, packets can be rerouted through different paths to the destination.
+   - <img width="1024" height="559" alt="image" src="https://github.com/user-attachments/assets/30902da6-2d1d-4136-a6e7-2b6a20c9cc51" />
+2. Scalability: Adjusting the network to new demands. For example (Hiring new staff, adding more WAPs, additional IoT devices, etc.). Each event will strain the existing infrastructure if the engineers don't ensure scalability. That's why network engineers use best practices and protocols to keep operations moving.
+   - <img width="1024" height="559" alt="image" src="https://github.com/user-attachments/assets/4b7149dd-c807-4c84-8819-3c03408cd64c" />
+
+
 
