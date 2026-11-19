@@ -25,21 +25,21 @@
 3. **Registered Ports:** Ports ranging from **1024** to **49151** can be used as source or destination ports. Organizations register specific ports for certain applications.
 4. **Private Ports:** Ports ranging from **49152** to **65535** are commonly used for source ports and can be used for any applications.
 
-| Port Number | Transport | Application Protocol | 
-| :---------: | :-------: | :------------------: | 
-| 20          | TCP       | File Transfer Protocol (FTP) data | 
+| Port Number | Transport | Application Protocol | Description |
+| :---------: | :-------: | :------------------: | :---------: |
+| 20          | TCP       | File Transfer Protocol (FTP) data | Used for interactive file transfers. | 
 | 21          | TCP       | File Transfer Protocol (FTP) Control | 
-| 22          | TCP       | Secure-Shell (SSH) | 
-| 23          | TCP       | Telnet (Note: Insecure) |
-| 25          | TCP       | Simple Mail Transfer Protocol (SMTP) | 
-| 53          | UDP, TCP  | Domain Name System (DNS) | 
-| 67          | UDP       | Dynamic Host Configuration Protocol/BootP (DHCP) Server | 
-| 68          | UDP       | Dynamic Host Configuration Protocol/BootP (DHCP) Client | 
+| 22          | TCP       | Secure Shell (SSH) | Used to provide a secure way to access servers and networking devices. | 
+| 23          | TCP       | Telnet (Note: Insecure) | 
+| 25          | TCP       | Simple Mail Transfer Protocol (SMTP) | Sending email messages and attachments from clients to servers and other email servers. | 
+| 53          | UDP, TCP  | Domain Name System (DNS) | Resolves internet names to IP addresses. | 
+| 67          | UDP       | Dynamic Host Configuration Protocol/BootP (DHCP) Server | Used for providing IP address and other information at the request of clients. |
+| 68          | UDP       | Dynamic Host Configuration Protocol/BootP (DHCP) Client | Used for clients to request an IP address on the network. |  
 | 69          | UDP       | Trivial File Transfer Protocol (TFTP) | 
-| 80          | TCP       | Hypertext Transfer Protocol (HTTP) | 
-| 110         | TCP       | Post Office Protocol Version 3 (POP3) | 
-| 143         | TCP       | Internet Message Access Protocol (IMAP) | 
+| 80          | TCP       | Hypertext Transfer Protocol (HTTP) | Used by web browsers to request web pages from web servers. |
+| 110         | TCP       | Post Office Protocol Version 3 (POP3) | Used by clients to retrieve emails and attachments from a remote server. | 
+| 143         | TCP       | Internet Message Access Protocol (IMAP) | Used by clients to retrieve emails and attachments from a remote server. | 
 | 161         | UDP       | Simple Network Management Protocol (SNMP) | 
-| 443         | TCP       | Hypertext Transfer Protocol Secure (HTTPS) |
+| 443         | TCP       | Hypertext Transfer Protocol Secure (HTTPS) | Web browsers commonly use HTTPS compared to HTTP due to security. | 
 
    
