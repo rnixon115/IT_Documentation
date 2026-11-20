@@ -31,7 +31,10 @@
   2. Loss of competitive advantage.
   3. Loss of customers.
   4. Loss of Revenue.
-  5. 
+  5. Legal action stemming in fines and civil penalties.
+  6. Costly to notify affected parties and recover from the breach.
+     
+ | Data Loss Vectors | 
 
   
 
