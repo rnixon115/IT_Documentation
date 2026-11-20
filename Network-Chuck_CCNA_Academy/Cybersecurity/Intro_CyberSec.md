@@ -11,10 +11,22 @@
 | Threat         | A person, organization, or state that poses a potential danger to assets, data, or network functionality of a company. 
 | Exploit        | A mechanism taking advantage of a vulnerability. | 
 | Mitigation     | Plans to counteract threats or risks. Network security involves multiple mitigation techniques. |
-| Risk           | The probability of threats to an asset negatively affecting an organization. Risk measures the probability of an event and its consequences. |
+| Risk           | The probability of threats to an asset negatively affecting an organization. Risk measures an event's probability and consequences. |
 
 ### Vector of Network Attacks
 
-- An attack vector is an adjacent path to the organization's network, where the threat actor can gain access to Servers, Hosts, or the network itself. An attack can come from outside or inside the network. A threat can also deny 
-- <img width="1003" height="590" alt="image" src="https://github.com/user-attachments/assets/41b6e639-c4a9-4469-8c85-c35892f4c3ff" />
+- An attack vector is an adjacent path to the organization's network, where the threat actor can gain access to Servers, Hosts, or the network itself. An attack can come from outside or inside the network. A threat can also deny service or applications supporting end-user requests, also called Denial-of-Service (DoS).
+- An internal employee can cause harm accidentally or intentionally.
+  1. Stealing confidential data to removable media, emailing, messaging software, etc.
+  2. Compromising internal servers or networking infrastructure.
+  3. Disconnecting a network connection, causing a network outage.
+  4. Connecting a malicious USB drive to a corporate computer system.
+- Internal threats are more dangerous than external threats. Internal threats have direct access to the building, infrastructure devices, corporate network, resources, and confidential data. Cybersecurity professionals mitigate attacks from internal and external threats using tools and techniques. 
+- <img width="1024" height="559" alt="image" src="https://github.com/user-attachments/assets/25428570-5344-4ad0-b22c-720fa6e65960" />
+
+### Data Loss
+
+
+  
+
 
