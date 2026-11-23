@@ -26,7 +26,7 @@
 
 ### Data Loss
 
-- Data loss or data exfiltration is the intentional or unintentional loss, theft, or leakage of data. Data can be described into categories of research and development data, sales data, financial data, human resources and legal data, employee data, contractor data, customer data, etc. Each encompasses a need for security; if security is weak, undesirable consequences can follow.
+- Data loss or data exfiltration is the intentional or unintentional loss, theft, or leakage of data. Data can be categorized as research and development data, sales data, financial data, human resources and legal data, employee data, contractor data, customer data, etc. Each requires security; if security is weak, undesirable consequences can follow.
   1. Brand Damage and loss of reputation.
   2. Loss of competitive advantage.
   3. Loss of customers.
@@ -34,8 +34,10 @@
   5. Legal action stemming in fines and civil penalties.
   6. Costly to notify affected parties and recover from the breach.
      
- | Data Loss Vectors | 
-
+ | Data Loss Vectors | Description | 
+ | :---------------: | :---------: | 
+ | Email/Social Networking | Intercepted email or messages could be captured and reveal sensitive information. | 
+ | Unencrypted Devices | Devices without an encryption algorithm can   |
   
 
 
