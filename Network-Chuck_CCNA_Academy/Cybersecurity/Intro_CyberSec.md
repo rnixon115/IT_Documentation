@@ -37,7 +37,10 @@
  | Data Loss Vectors | Description | 
  | :---------------: | :---------: | 
  | Email/Social Networking | Intercepted email or messages could be captured and reveal sensitive information. | 
- | Unencrypted Devices | Devices without an encryption algorithm can   |
-  
+ | Unencrypted Devices | Devices without encryption can reveal sensitive data. |
+ | Cloud Storage Devices | Cloud storage can be compromised due to weak security. |
+ | Removable Media | An internal threat carrying a flash drive can steal confidential data when accessing an unsupervised system. Another risk is that an associate carries confidential data on media; this carries a risk of thieves stealing the media from an associate. | 
+ | Hard Copy | Confidential documents should be shredded appropriately. |
+ | Improper Access Control | Weak passwords can be brute-forced, giving attackers credentials to access restricted sites. | 
 
 
