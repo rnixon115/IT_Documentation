@@ -93,6 +93,8 @@
 | Denial of Service (DoS) | The Trojan horse can stop or halt network activities. | 
 | Keylogger | The Trojan horse can actively listen to the keys being pressed when typing in a password, credit card information, etc. | 
 
+- Other types of malware can cause harm to individuals or organizations. 
+
 | Other Types of Malware | Description | 
 | :--------------------: | :---------: | 
 | Adware | Adware is distributed by downloading online software. Adware can display unsolicited advertising using pop-up web windows. Adware has active links that can take you to unexpected pages. | 
