@@ -46,10 +46,20 @@
 ### Threat Actors
 
 - In the IT world, professionals have to understand the mindset of cybercriminals to build effective defense strategies. Threat actors' skills and motivations vary, whether they target confidential data or critical infrastructure. 
-- Hacking started in the 1960s with phone phreaking. Phone phreaking involves using audio frequencies to manipulate the phone system. Telephone switches use different tones for specific functions. That's when hackers realized they could mimic a tone with a whistle to exploit long-distance calls for free. In the 1980s, computers used dial-up modems to connect to the network. Hackers scripted "War Dialing" programs, which dialed each telephone system in a region. When computers were, the hacker would utilize password-cracking programs to gain access. 
+- Hacking started in the 1960s with phone phreaking. Phone phreaking involves using audio frequencies to manipulate the phone system. Telephone switches use different tones for specific functions. That's when hackers realized they could mimic a tone with a whistle to exploit long-distance calls for free. In the 1980s, computers used dial-up modems to connect to the network. Hackers scripted "War Dialing" programs, which dialed each telephone system in a region. When computers were, the hacker would utilize password-cracking programs to gain access.
+- The sophistication of attack tools has grown exponentially compared to technical knowledge. 
 
 | Type of Hacker | Description | 
 | :------------: | :---------: | 
 | Script Kiddies | Teenagers or inexperienced hackers running scripts, tools, and exploits to cause harm for no profit "Show-Off". |
-| Vulnerability Broker | A vulnerability broker is a "Bug-Bounty-Hunter" who searches for exploits and reports them to vendors.  the web to find bug bounties and are compensated for reporting.  
- 
+| Vulnerability Broker | A vulnerability broker is a "Bug-Bounty-Hunter" who searches for exploits and reports them to vendors.  the web to find bug bounties and are compensated for reporting. |
+| Hacktivists | Hacktivists target governments, enterprises, and organizations to protest or draw attention to political or ideological causes. While commonly loosely organized and using publicly available tools, they still can cause disruption. | 
+| Cybercriminals | Cybercriminals operate in an underground economy where they buy, sell, and trade tools, zero-day exploits, botnet services, banking trojans, keyloggers, and more. Cybercriminals also buy and sell private information and intellectual property they stole. Cybercriminals target small businesses, consumers, and large enterprises. | 
+| State-Sponsored | Hackers of the state attacking foreign countries, terrorist groups, and corporations by stealing secrets, gathering intelligence, and sabotaging networks. |
+| Insiders | Insiders are current, former employees, partners, or contractors who have access to the organization's systems. Their actions can be intentional due to grievance or financial situation, or accidental, such as clicking a phishing link. |
+| Corporate and Industrial Spies | Corporate or industrial spies work in facilities to gain an advantage by stealing sensitive business information or intellectual property. | 
+| Terrorist Groups | Terrorist groups use cyberattacks to promote extremist agendas, cause disruption, spread misinformation, and propaganda. Terrorist groups' tactics can be extreme, inflicting both physical and psychological harm. |
+| Ethical Hackers | Ethical hackers use their skills for good, ethical, and legal purposes. They can perform a wide array of tests on an organization's infrastructure, network, application security, and consult with individuals. Ethical hackers will report an issue or an exploit to the correct department or individual. |
+
+
+
