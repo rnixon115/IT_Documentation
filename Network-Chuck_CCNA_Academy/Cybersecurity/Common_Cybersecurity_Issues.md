@@ -43,4 +43,13 @@
  | Hard Copy | Confidential documents should be shredded appropriately. |
  | Improper Access Control | Weak passwords can be brute-forced, giving attackers credentials to access restricted sites. | 
 
+### Threat Actors
 
+- In the IT world, professionals have to understand the mindset of cybercriminals to build effective defense strategies. Threat actors' skills and motivations vary, whether they target confidential data or critical infrastructure. 
+- Hacking started in the 1960s with phone phreaking. Phone phreaking involves using audio frequencies to manipulate the phone system. Telephone switches use different tones for specific functions. That's when hackers realized they could mimic a tone with a whistle to exploit long-distance calls for free. In the 1980s, computers used dial-up modems to connect to the network. Hackers scripted "War Dialing" programs, which dialed each telephone system in a region. When computers were, the hacker would utilize password-cracking programs to gain access. 
+
+| Type of Hacker | Description | 
+| :------------: | :---------: | 
+| Script Kiddies | Teenagers or inexperienced hackers running scripts, tools, and exploits to cause harm for no profit "Show-Off". |
+| Vulnerability Broker | A vulnerability broker is a "Bug-Bounty-Hunter" who searches for exploits and reports them to vendors.  the web to find bug bounties and are compensated for reporting.  
+ 
