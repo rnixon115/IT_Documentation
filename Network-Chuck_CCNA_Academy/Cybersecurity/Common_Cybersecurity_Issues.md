@@ -59,7 +59,46 @@
 | Insiders | Insiders are current, former employees, partners, or contractors who have access to the organization's systems. Their actions can be intentional due to grievance or financial situation, or accidental, such as clicking a phishing link. |
 | Corporate and Industrial Spies | Corporate or industrial spies work in facilities to gain an advantage by stealing sensitive business information or intellectual property. | 
 | Terrorist Groups | Terrorist groups use cyberattacks to promote extremist agendas, cause disruption, spread misinformation, and propaganda. Terrorist groups' tactics can be extreme, inflicting both physical and psychological harm. |
-| Ethical Hackers | Ethical hackers use their skills for good, ethical, and legal purposes. They can perform a wide array of tests on an organization's infrastructure, network, application security, and consult with individuals. Ethical hackers will report an issue or an exploit to the correct department or individual. |
+| Ethical Hackers | Ethical hackers use their skills for good, ethical, and legal purposes. They can perform a wide array of tests on an organization's infrastructure, network, application security, and consult with individuals. Ethical hackers will report exploits to the correct department or individual. |
+
+### Malware
+
+- Malware is designed to cause harm, disrupt services, or gain unauthorized access to computer systems. Malware can corrupt data, compromise personal data, or pave the way for future attacks. Malware is deployed by various methods to complete its objective.
+- A common type of malware is a virus. A virus requires human interaction to propagate and affect other machines. A virus can infect a computer by opening an email attachment, opening a file on a flash drive, or downloading a file from the web.
+- A virus hides by attaching to computer code, software, or documents on a computer. When opened, the virus executes and infects the computer.
+- Viruses Can:
+  1. Alter, corrupt, delete files, or erase the entire drive.
+  2. Cause computer booting issues and corrupt applications.
+  3. Capture and send sensitive information to threat actors.
+  4. Access and use email accounts to spread.
+  5. Lay dormant until a threat actor activates the virus.
+| Types of Viruses | Desription |
+| :--------------: | :--------: |
+| Boot Sector Virus | Virus attacks the boot sector of the file partition table, or file system. | 
+| Firmware Virus | Virus attacks the device firmware. | 
+| Macro Virus | A macro virus targets MS Office or other applications, injecting a macro maliciously. | 
+| Program Virus | A virus inserts itself into another executable program. | 
+| Script Virus | A script virus attacks the OS interpreter that is used to execute scripts. |
+
+- A Trojan horse virus looks appealing, but has malicious code waiting to be executed.
+| Type of Trojan Horses | Description |
+| :-------------------: | :---------: |
+| Remote-Access | The Trojan horse enables remote access. | 
+| Data-Sending | The Trojan horse sends sensitive data to the threat actors. | 
+| Destructive | The Trojan horse file corrupts or deletes files. | 
+| Proxy | The Trojan horse can use the victim's computer as a source to launch an attack or perform other illegal activities. | 
+| FTP | The Trojan horse enables unauthorized file transfer services on end devices. | 
+| Security Software Disabler | The Trojan horse can stop antivirus programs from running or make the firewall nonfunctional. | 
+| Denial of Service (DoS) | The Trojan horse can stop or halt network activities. | 
+| Keylogger | The Trojan horse can actively listen to the keys being pressed when typing in a password, credit card information, etc. | 
+
+| Other Types of Malware | Description | 
+| :--------------------: | :---------: | 
+| Adware | Adware is distributed by downloading online software. Adware can display unsolicited advertising using pop-up web windows. Adware has active links that can take you to unexpected pages. | 
+| Ransomware | Ransomware encrypts files, denying access to the victim's files. The victim will either have a backup of the files or pay the ransom to access their files. Typically, a wire transfer or digital currency. |  
+| Rootkit | A Rootkit gives threat actors the ability to run as an administrator on the system. It's hard to detect because rootkits alter antivirus, system files, the firewall, and OS commands to remain hidden. A rootkit provides a backdoor to access the PC to upload files and install software for DDoS attacks. To remove the rootkit, you'll need a rootkit remover or reinstall the OS. | 
+| Spyware | Spyware is used to gather information on the user and send it to the threat actor without the user's consent. Spyware can be a low threat if capturing common data but can also capture confidential data, turning spyware into a high threat. | 
+
 
 
 
