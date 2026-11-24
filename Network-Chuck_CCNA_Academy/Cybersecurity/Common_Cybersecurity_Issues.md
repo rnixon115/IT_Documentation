@@ -81,6 +81,7 @@
 | Script Virus | A script virus attacks the OS interpreter that is used to execute scripts. |
 
 - A Trojan horse virus looks appealing, but has malicious code waiting to be executed.
+  
 | Type of Trojan Horses | Description |
 | :-------------------: | :---------: |
 | Remote-Access | The Trojan horse enables remote access. | 
