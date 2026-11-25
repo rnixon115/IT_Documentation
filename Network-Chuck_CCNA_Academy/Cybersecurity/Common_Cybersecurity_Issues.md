@@ -80,7 +80,7 @@
 | Program Virus | A virus inserts itself into another executable program. | 
 | Script Virus | A script virus attacks the OS interpreter that is used to execute scripts. |
 
-- A Trojan horse virus looks appealing, but has malicious code waiting to be executed.
+- A Trojan horse virus looks appealing but has malicious code waiting to be executed.
   
 | Type of Trojan Horses | Description |
 | :-------------------: | :---------: |
@@ -110,7 +110,7 @@
   3.  Social Engineering Attacks
   4.  Denial of Service (DoS) Attacks
 
-##### Reconnaissance Attacks
+##### Reconnaissance Attack
 
 - Reconnaissance is gathering information about individuals, organizations, government agencies, and more. A threat actor will survey the organization's systems, services, and vulnerabilities. Threat actors proceed to launch attacks or deny service.
 
@@ -120,7 +120,13 @@
 | Initiating Ping Sweep | A threat actor can obtain the public IP address of the target by using the WHOIS website. Once an IP address is retrieved, the threat actor can start pinging the network, determining which IP address is active. | 
 | Initiating a Port Scan of Active IP Address | A threat actor will scan each IP address to see what ports or services are available. Port scanning applications include Nmap, Superscan, Angry IP Scanner, and NetScan Tools. |
 | Run Vulnerability Scanners | The threat actor will query a vulnerability scanner to determine the type of application and operating system running. Examples of tools used are Nipper, Secuna PSI, Core Impact, Nessusv6, Saint, and OpenVAS. | 
-| Running Exploitation Tools | 
+| Running Exploitation Tools | The threat actor will attempt to discover services to exploit. Software includes Metasploit, Core Impact, SQLMap, Social Engineer Toolkit, and Netsparker. | 
+
+##### Access Attacks
+
+- Access attacks exploit known vulnerabilities in authentication services, ftp, and web services. The objective is to gain web accounts, databases, and other sensitive information.
+- Threat actors perform access attacks on networking devices and computers to obtain data, gain access, or escalate privileges to administrator.
+- Password attacks 
 
 
 
