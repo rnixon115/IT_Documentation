@@ -99,9 +99,28 @@
 | :--------------------: | :---------: | 
 | Adware | Adware is distributed by downloading online software. Adware can display unsolicited advertising using pop-up web windows. Adware has active links that can take you to unexpected pages. | 
 | Ransomware | Ransomware encrypts files, denying access to the victim's files. The victim will either have a backup of the files or pay the ransom to access their files. Typically, a wire transfer or digital currency. |  
-| Rootkit | A Rootkit gives threat actors the ability to run as an administrator on the system. It's hard to detect because rootkits alter antivirus, system files, the firewall, and OS commands to remain hidden. A rootkit provides a backdoor to access the PC to upload files and install software for DDoS attacks. To remove the rootkit, you'll need a rootkit remover or reinstall the OS. | 
-| Spyware | Spyware is used to gather information on the user and send it to the threat actor without the user's consent. Spyware can be a low threat if capturing common data but can also capture confidential data, turning spyware into a high threat. | 
+| Rootkit | A rootkit lets threat actors run as an administrator on the system. It's hard to detect because rootkits alter antivirus, system files, the firewall, and OS commands to remain hidden. A rootkit provides a backdoor to access the PC to upload files and install software for DDoS attacks. To remove the rootkit, you'll need a rootkit remover or reinstall the OS. | 
+| Spyware | Spyware is used to gather information on the user and send it to the threat actor without the user's consent. Spyware can be a low threat if it captures common data, but it can also capture confidential data, making it a high threat. | 
 
+### Network Attack
+
+- Network attacks are susceptible to the following methods.
+  1. Reconnaissance Attack
+  2.  Access Attacks
+  3.  Social Engineering Attacks
+  4.  Denial of Service (DoS) Attacks
+
+##### Reconnaissance Attacks
+
+- Reconnaissance is gathering information about individuals, organizations, government agencies, and more. A threat actor will survey the organization's systems, services, and vulnerabilities. Threat actors proceed to launch attacks or deny service.
+
+| Technique | Description | 
+| :-------: | :---------: | 
+| Perform an Information Query on the Target | A threat actor gathers information by using public tools such as Google Search Engine, WHOIS website, the organization's website, and more. War driving can also map out exposed wireless signals around a physical location. | 
+| Initiating Ping Sweep | A threat actor can obtain the public IP address of the target by using the WHOIS website. Once an IP address is retrieved, the threat actor can start pinging the network, determining which IP address is active. | 
+| Initiating a Port Scan of Active IP Address | A threat actor will scan each IP address to see what ports or services are available. Port scanning applications include Nmap, Superscan, Angry IP Scanner, and NetScan Tools. |
+| Run Vulnerability Scanners | The threat actor will query a vulnerability scanner to determine the type of application and operating system running. Examples of tools used are Nipper, Secuna PSI, Core Impact, Nessusv6, Saint, and OpenVAS. | 
+| Running Exploitation Tools | 
 
 
 
