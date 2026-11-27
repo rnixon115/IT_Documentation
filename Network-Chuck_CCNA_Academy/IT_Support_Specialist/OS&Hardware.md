@@ -1,4 +1,4 @@
-## Storage 
+## Hardware & Types 
 1. Punch Cards
 2. Paper Tapes
 3. Magnetic Tapes
@@ -9,6 +9,27 @@
 8. SSD (Solid State Drives)
 9. HHD (Helium Hard Drives)
 10. eMMC (Embedded MultiMedia Card)
+11. CPU (Central Processing Unit)
+12. TPU (Tensor Processing Unit by Google)
+13. GPU (Graphics Processing Unit)
+14. NPU (Neural Processing Unit for AI)
+15. APU ( A CPU combined with a GPU)
+16. LPU (Language Processing Unit for LLMs)
+17. DPU (Data Processing Unit for Offloading infrastructure)
+18. QPU (Quantum Processing Unit, the next frontier)
+19. RAM (Random Access Memory)
+20. ROM (Read-Only Memory)
+21. NIC (Network Interface Card)
+22. WNIC (Wireless Network Interface Card)
+23. Bluetooth Module
+24. Power Supply
+25. Motherboard Types [Common: E-ATX (Extended ATX), ATX (Advanced Technology eXtended), Micro-ATX (mATX); Enterprise: Mini-STX (Mini Socket Technology Extended), SSI EEB / SSI CEB (Server System Infrastructure); Companies Proprietary Form Factors (OEM)]
+26. Audio Card
+27. Touch Screen
+28. RAID Controller (Redundant Array of Independent Disks Controller)
+29. CD-ROM (Compact Disc - Read-Only Memory)
+30. CD-RW (Compact Disc - Read/Write)
+
 
 ## Windows 
 1. Microsoft bought DOS (Disk Operating System), which was then called MS-DOS.
