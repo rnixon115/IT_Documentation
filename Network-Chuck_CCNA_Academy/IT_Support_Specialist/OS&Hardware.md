@@ -41,18 +41,6 @@
 <img width="970" height="683" alt="image" src="https://github.com/user-attachments/assets/147762e9-16f1-4956-addb-a51c137cd3b8" />
 Source: Cisco Network Academy, Operating System Basics
 
-### CMD
-1. dir
-2. cd {directory}
-3. cd .. "Moves back one directory
-4. cd\ "Moves the directory back to root"
-5. copy {~path\source}
-6. del {filename}
-7. find {text in a filename}
-8. mkdir {directory name}
-9. ren {rename an old file}
-10. help "Displays more useful commands and their uses"
-
 ### Windows Tools Overview
 
 1. Task Manager
