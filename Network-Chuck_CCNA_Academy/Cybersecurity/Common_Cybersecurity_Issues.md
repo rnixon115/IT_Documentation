@@ -98,7 +98,7 @@
 | Other Types of Malware | Description | 
 | :--------------------: | :---------: | 
 | Adware | Adware is distributed by downloading online software. Adware can display unsolicited advertising using pop-up web windows. Adware has active links that can take you to unexpected pages. | 
-| Ransomware | Ransomware encrypts files, denying access to the victim's files. The victim will either have a backup of the files or pay the ransom to access their files. Typically, a wire transfer or digital currency. |  
+| Ransomware | Ransomware encrypts files, denying the victim access to them. The victim either has a backup or pays the ransom to regain access. Typically, a wire transfer or digital currency. |  
 | Rootkit | A rootkit lets threat actors run as an administrator on the system. It's hard to detect because rootkits alter antivirus, system files, the firewall, and OS commands to remain hidden. A rootkit provides a backdoor to access the PC to upload files and install software for DDoS attacks. To remove the rootkit, you'll need a rootkit remover or reinstall the OS. | 
 | Spyware | Spyware is used to gather information on the user and send it to the threat actor without the user's consent. Spyware can be a low threat if it captures common data, but it can also capture confidential data, making it a high threat. | 
 
