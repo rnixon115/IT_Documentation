@@ -23,7 +23,7 @@
 22. WNIC (Wireless Network Interface Card)
 23. Bluetooth Module
 24. Power Supply
-25. Motherboard Types [Common: E-ATX (Extended ATX), ATX (Advanced Technology eXtended), Micro-ATX (mATX); Enterprise: Mini-STX (Mini Socket Technology Extended), SSI EEB / SSI CEB (Server System Infrastructure); Companies Proprietary Form Factors (OEM)]
+25. Motherboard Types [Common: E-ATX (Extended ATX), ATX (Advanced Technology eXtended), Micro-ATX (mATX); Enterprise: Mini-STX (Mini Socket Technology Extended), SSI EEB / SSI CEB (Server System Infrastructure); Companies' Proprietary Form Factors (OEM)]
 26. Audio Card
 27. Touch Screen
 28. RAID Controller (Redundant Array of Independent Disks Controller)
@@ -53,15 +53,38 @@ Source: Cisco Network Academy, Operating System Basics
    - System Information provides an overview of the hardware, operating system version, and other applications in use. If you need to upgrade the RAM or replace another component, check here first to see the specs.
    - [System Information for Windows 11](https://support.microsoft.com/en-us/windows/experience/description-of-microsoft-system-information-msinfo32-exe-tool)  
 4. Windows PowerShell (.ps1)
-   - Windows PowerShell 
+   - Windows PowerShell is a scripting language based on .net. Windows PowerShell uses an object-based {verb}-{noun} naming convention. Windows PowerShell isn't case-sensitive compared to bash or zsh.
+   - [What is Windows PowerShell](https://learn.microsoft.com/en-us/powershell/scripting/what-is-windows-powershell?view=powershell-7.6)
+     {
+        Get-Process
+        Get-Childitem
+        Get-Printer
+        Get-Help
+        Get-StorageFileServer
+        Get-StartApps
+        Get-PnpDevice
+        Start-Process
+        Set-Variable
+        Remove-Printer
+        Remove-PrinterDriver
+        Remove-NetSwitchTeam
+        Remove-NetNeighbor
+        Remove-NetIPAddress
+     }
 5. Command Prompt (CMD)
-   - dir
-   - cd {directory}
-   - cd .. "Moves back one directory
-   - cd\ "Moves the directory back to root"
-   - copy {~path\source}
-   - del {filename}
-   - find {text in a filename}
-   - mkdir {directory name}
-   - ren {rename an old file}
-    - help "Displays more useful commands and their uses"
+   - [What Is CMD?](https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/cmd)
+   {
+      dir
+      cd {directory}
+      cd .. "Moves back one directory
+      cd\ "Moves the directory back to root"
+      copy {~path\source}
+      del {filename}
+      find {text in a filename}
+      mkdir {directory name}
+      ren {rename an old file}
+      help "Displays more useful commands and their uses"
+   }
+
+## macOS Tools Overview
+
