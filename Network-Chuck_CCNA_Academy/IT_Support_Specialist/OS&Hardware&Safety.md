@@ -110,13 +110,12 @@ These advancements have made USB an essential interface for a wide range of devi
 ## Windows 
    1. Microsoft bought DOS (Disk Operating System), which was then called MS-DOS.
    2. Windows 10 and newer are not considered a disk operating system. Instead, Windows 10 is run on NT (New Technology). A fancy term for the OS that's in direct control of the hardware.
-   3. So, Windows is no longer running a single process but a multitude of processes.
-   4. Windows computers use multiple types of hardware.
+   3. When installing software, ensure that your Windows computer matches the specifications: processor architecture, memory, GPU, and disk Space. 
 
 ### Windows Hierarchy 
    <img width="970" height="683" alt="image" src="https://github.com/user-attachments/assets/147762e9-16f1-4956-addb-a51c137cd3b8" />
    Source: Cisco Network Academy, Operating System Basics
-
+   
 ### Windows Tools Overview
 
    1. Task Manager
@@ -127,8 +126,9 @@ These advancements have made USB an essential interface for a wide range of devi
       - [Event Viewer for Windows 11](https://learn.microsoft.com/en-us/shows/inside/event-viewer)
    3. System Information
       - System Information provides an overview of the hardware, operating system version, and other applications in use. If you need to upgrade the RAM or replace another component, check here first to see the specs.
-      - [System Information for Windows 11](https://support.microsoft.com/en-us/windows/experience/description-of-microsoft-system-information-msinfo32-exe-tool)  
-   4. Windows PowerShell (.ps1)
+      - [System Information for Windows 11](https://support.microsoft.com/en-us/windows/experience/description-of-microsoft-system-information-msinfo32-exe-tool)
+   4. Device Manager gives you a list of hardware components the computer currently uses. Device Manager provides a way to troubleshoot hardware issues. Device Manager allows the user to update a driver, roll back a driver, Uninstall A Driver, and Disable/Enable a Device. 
+   5. Windows PowerShell (.ps1)
       - Windows PowerShell is a scripting language based on .net. Windows PowerShell uses an object-based {verb}-{noun} naming convention. Windows PowerShell isn't case-sensitive compared to bash or zsh.
       - [What is Windows PowerShell](https://learn.microsoft.com/en-us/powershell/scripting/what-is-windows-powershell?view=powershell-7.6)
           1. Get-Process
@@ -146,7 +146,7 @@ These advancements have made USB an essential interface for a wide range of devi
           13. Remove-NetNeighbor
           14. Remove-NetIPAddress
         
-   5. Command Prompt (CMD)
+   6. Command Prompt (CMD)
       - [What Is CMD?](https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/cmd)
       1. dir
       2. cd {directory}
